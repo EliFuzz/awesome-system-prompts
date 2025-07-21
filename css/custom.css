@@ -1,0 +1,4 @@
+/* Scrollable Tabs */
+.tabs .tabs__item {
+  white-space: nowrap;
+}
