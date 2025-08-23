@@ -8,7 +8,6 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
-import Summary from "!!raw-loader!./assets/openai/summary.txt";
 import AdvancedVoiceMode from "!raw-loader!./assets/openai/advanced-voice-mode.txt";
 import AutomationContext from "!raw-loader!./assets/openai/automation-context.txt";
 import ChatGpt5_2025_08_08 from "!raw-loader!./assets/openai/chat-gpt-5-2025-08-08.md";
@@ -55,6 +54,8 @@ import OpenAIDeepResearch from "!raw-loader!./assets/openai/openai-deep-research
 import OpenAIDeepResearch20250204 from "!raw-loader!./assets/openai/openai-deep-research_20250204.txt";
 import OpenAIVoiceMode2025_07_06 from "!raw-loader!./assets/openai/openai-voice-mode-2025_07_06.txt";
 import PersonaTone from "!raw-loader!./assets/openai/persona-tone.txt";
+import Prompt_GPT5_Thinking from "!raw-loader!./assets/openai/prompt-gpt5-thinking.md";
+import Summary from "!raw-loader!./assets/openai/summary.txt";
 import System from "!raw-loader!./assets/openai/system.txt";
 import ToolCanvas from "!raw-loader!./assets/openai/tool-canvas.txt";
 import ToolChannels from "!raw-loader!./assets/openai/tool-channels.txt";
@@ -227,6 +228,9 @@ import WebBrowsingPolicy from "!raw-loader!./assets/openai/web-browsing-policy.t
   </TabItem>
   <TabItem value="persona-tone" label="Persona Tone">
     <CodeBlock language="markdown">{PersonaTone}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-gpt5-thinking" label="Prompt GPT-5 Thinking">
+    <CodeBlock language="markdown">{Prompt_GPT5_Thinking}</CodeBlock>
   </TabItem>
   <TabItem value="summary" label="Summary">
     <CodeBlock language="json">{Summary}</CodeBlock>
