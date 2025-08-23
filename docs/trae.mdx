@@ -8,10 +8,18 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
-import Chat from "!raw-loader!./assets/trae/chat.txt";
+import ToolsBuilder from "!!raw-loader!./assets/trae/tools-builder.json";
+import Chat from "!raw-loader!./assets/trae/chat.md";
+import PromptBuilder from "!raw-loader!./assets/trae/prompt-builder.md";
 
 <Tabs queryString="primary">
+  <TabItem value="tools-builder" label="Tools Builder">
+    <CodeBlock language="json">{ToolsBuilder}</CodeBlock>
+  </TabItem>
   <TabItem value="chat" label="Chat">
     <CodeBlock language="markdown">{Chat}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-builder" label="Prompt Builder">
+    <CodeBlock language="markdown">{PromptBuilder}</CodeBlock>
   </TabItem>
 </Tabs>
