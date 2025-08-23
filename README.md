@@ -111,6 +111,7 @@ An opinionated list of awesome system prompts from various AI models.
 - [Read Notebook](docs/assets/claude-code/read-notebook.js)
 - [System Prompt 0.2.9](docs/assets/claude-code/system-prompt-0_2_9.txt)
 - [System](docs/assets/claude-code/system.js)
+- [Tool Claude Code](docs/assets/claude-code/tools-claude-code.json)
 - [Bash Tool](docs/assets/claude-code/tool-bash.txt)
 - [Edit Tool](docs/assets/claude-code/tool-edit.txt)
 - [Exit Plan Mode Tool](docs/assets/claude-code/tool-exit-plan-mode.txt)
@@ -156,8 +157,14 @@ An opinionated list of awesome system prompts from various AI models.
 - [Prompt 2025-05-12](docs/assets/cluely/prompt-2025_05_12.txt)
 - [Prompt 2025-06-11](docs/assets/cluely/prompt-2025_06_11.txt)
 
+### [CodeBuddy](https://www.codebuddy.ai)
+
+- [Prompt Chat](docs/assets/codebuddy/prompt-chat.md)
+- [Prompt Craft](docs/assets/codebuddy/prompt-craft.md)
+
 ### [Codex](https://openai.com/blog/openai-codex)
 
+- [Prompt 2025-08-01](docs/assets/codex/prompt-2025-08-01.md)
 - [Prompt](docs/assets/codex/prompt.txt)
 
 ### [Google Colab](https://colab.google)
@@ -383,6 +390,7 @@ An opinionated list of awesome system prompts from various AI models.
 - [OpenAI Deep Research](docs/assets/openai/openai-deep-research.txt)
 - [OpenAI Voice Mode (2025-07-06)](docs/assets/openai/openai-voice-mode-2025_07_06.txt)
 - [Persona Tone](docs/assets/openai/persona-tone.txt)
+- [Prompt GPT-5 Thinking](docs/assets/openai/prompt-gpt5-thinking.md)
 - [Summary](docs/assets/openai/summary.txt)
 - [System](docs/assets/openai/system.txt)
 - [Tool Canvas](docs/assets/openai/tool-canvas.txt)
@@ -430,6 +438,10 @@ An opinionated list of awesome system prompts from various AI models.
 
 - [Prompt (2025-07-24)](docs/assets/proton/prompt-2025-07-24.txt)
 - [Prompt (2025-07-27)](docs/assets/proton/prompt-2025-07-27.txt)
+
+### [Qoder](https://www.qoder.com)
+
+- [Prompt](docs/assets/qoder/prompt.md)
 
 ### [Raycast](https://www.raycast.com)
 
@@ -481,7 +493,9 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Trae](https://trae.ai)
 
-- [Chat](docs/assets/trae/chat.txt)
+- [Chat](docs/assets/trae/chat.md)
+- [Prompt Builder](docs/assets/trae/prompt-builder.md)
+- [Tools Builder](docs/assets/trae/tools-builder.json)
 
 ### [V0](https://v0.dev)
 
