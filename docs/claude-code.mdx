@@ -22,6 +22,7 @@ import ReadNotebook from "!raw-loader!./assets/claude-code/read-notebook.js";
 import SystemPrompt from "!raw-loader!./assets/claude-code/system-prompt-0_2_9.txt";
 import System from "!raw-loader!./assets/claude-code/system.js";
 
+import ToolClaudeCode from "!!raw-loader!./assets/claude-code/tools-claude-code.json";
 import ToolBash from "!raw-loader!./assets/claude-code/tool-bash.txt";
 import ToolEdit from "!raw-loader!./assets/claude-code/tool-edit.txt";
 import ToolExitPlanMode from "!raw-loader!./assets/claude-code/tool-exit-plan-mode.txt";
@@ -78,6 +79,9 @@ import ToolWrite from "!raw-loader!./assets/claude-code/tool-write.txt";
   </TabItem>
   <TabItem value="system" label="System">
     <CodeBlock language="js">{System}</CodeBlock>
+  </TabItem>
+  <TabItem value="tool-claude-code" label="Tool Claude Code">
+    <CodeBlock language="markdown">{ToolClaudeCode}</CodeBlock>
   </TabItem>
   <TabItem value="tool-bash" label="Tool Bash">
     <CodeBlock language="markdown">{ToolBash}</CodeBlock>
