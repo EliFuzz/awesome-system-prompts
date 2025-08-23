@@ -1,0 +1,21 @@
+---
+title: CodeBuddy
+description: CodeBuddy Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+import PromptChat from "!raw-loader!./assets/codebuddy/prompt-chat.md";
+import PromptCraft from "!raw-loader!./assets/codebuddy/prompt-craft.md";
+
+<Tabs queryString="primary">
+  <TabItem value="prompt-chat" label="Prompt Chat">
+    <CodeBlock language="markdown">{PromptChat}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-craft" label="Prompt Craft">
+    <CodeBlock language="markdown">{PromptCraft}</CodeBlock>
+  </TabItem>
+</Tabs>
