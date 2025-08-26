@@ -8,13 +8,24 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
+import ChatTitles from "!raw-loader!./assets/vscode/chat-titles.md";
 import Copilot2023_05_13 from "!raw-loader!./assets/vscode/copilot-2023_05_13.txt";
 import Copilot2024_03_10 from "!raw-loader!./assets/vscode/copilot-2024_03_10.txt";
 import Copilot2024_09_30 from "!raw-loader!./assets/vscode/copilot-2024_09_30.txt";
 import Copilot2024_12_19 from "!raw-loader!./assets/vscode/copilot-2024_12_19.txt";
+import NesTabCompletion from "!raw-loader!./assets/vscode/nes-tab-completion.md";
+import PromptClaudeSonnet4 from "!raw-loader!./assets/vscode/prompt-claude-sonnet-4.md";
+import PromptGemini25Pro from "!raw-loader!./assets/vscode/prompt-gemini-2.5pro.md";
+import PromptGpt4o from "!raw-loader!./assets/vscode/prompt-gpt-4o.md";
+import PromptGpt5 from "!raw-loader!./assets/vscode/prompt-gpt-5.md";
+import PromptGpt5Mini from "!raw-loader!./assets/vscode/prompt-gpt-5mini.md";
+import PromptGpt41 from "!raw-loader!./assets/vscode/prompt-gpt4.1.md";
 import Prompt from "!raw-loader!./assets/vscode/prompt.txt";
 
 <Tabs queryString="primary">
+  <TabItem value="chat-titles" label="Chat Titles">
+    <CodeBlock language="markdown">{ChatTitles}</CodeBlock>
+  </TabItem>
   <TabItem value="copilot-2023_05_13" label="Copilot 2023-05-13">
     <CodeBlock language="markdown">{Copilot2023_05_13}</CodeBlock>
   </TabItem>
@@ -26,6 +37,27 @@ import Prompt from "!raw-loader!./assets/vscode/prompt.txt";
   </TabItem>
   <TabItem value="copilot-2024_12_19" label="Copilot 2024-12-19">
     <CodeBlock language="markdown">{Copilot2024_12_19}</CodeBlock>
+  </TabItem>
+  <TabItem value="nes-tab-completion" label="NES Tab Completion">
+    <CodeBlock language="markdown">{NesTabCompletion}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-claude-sonnet-4" label="Prompt Claude Sonnet 4">
+    <CodeBlock language="markdown">{PromptClaudeSonnet4}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-gemini-2.5pro" label="Prompt Gemini 2.5pro">
+    <CodeBlock language="markdown">{PromptGemini25Pro}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-gpt-4o" label="Prompt GPT-4o">
+    <CodeBlock language="markdown">{PromptGpt4o}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-gpt-5" label="Prompt GPT-5">
+    <CodeBlock language="markdown">{PromptGpt5}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-gpt-5mini" label="Prompt GPT-5mini">
+    <CodeBlock language="markdown">{PromptGpt5Mini}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-gpt4.1" label="Prompt GPT-4.1">
+    <CodeBlock language="markdown">{PromptGpt41}</CodeBlock>
   </TabItem>
   <TabItem value="prompt" label="Prompt">
     <CodeBlock language="markdown">{Prompt}</CodeBlock>
