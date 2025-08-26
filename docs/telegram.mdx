@@ -1,0 +1,21 @@
+---
+title: Telegram
+description: Telegram Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+import PromptBotGrok4 from "!raw-loader!./assets/telegram/prompt-bot-grok4.md";
+import PromptBotPerplexity from "!raw-loader!./assets/telegram/prompt-bot-perplexity.md";
+
+<Tabs queryString="primary">
+  <TabItem value="prompt-bot-grok4" label="Prompt Bot Grok4">
+    <CodeBlock language="markdown">{PromptBotGrok4}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-bot-perplexity" label="Prompt Bot Perplexity">
+    <CodeBlock language="markdown">{PromptBotPerplexity}</CodeBlock>
+  </TabItem>
+</Tabs>
