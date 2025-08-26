@@ -441,6 +441,8 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Qoder](https://www.qoder.com)
 
+- [Quest Action](docs/assets/qoder/quest-action.md)
+- [Quest Design](docs/assets/qoder/quest-design.md)
 - [Prompt](docs/assets/qoder/prompt.md)
 
 ### [Raycast](https://www.raycast.com)
@@ -491,6 +493,11 @@ An opinionated list of awesome system prompts from various AI models.
 
 - [Prompt](docs/assets/sesame/prompt.txt)
 
+### [Telegram](https://telegram.org)
+
+- [Grok 4](docs/assets/telegram/prompt-bot-grok4.md)
+- [Perplexity](docs/assets/telegram/prompt-bot-perplexity.md)
+
 ### [Trae](https://trae.ai)
 
 - [Chat](docs/assets/trae/chat.md)
@@ -508,10 +515,18 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [VSCode](https://code.visualstudio.com)
 
+- [Chat Titles](docs/assets/vscode/chat-titles.md)
 - [Copilot 2023-05-13](docs/assets/vscode/copilot-2023_05_13.txt)
 - [Copilot 2024-03-10](docs/assets/vscode/copilot-2024_03_10.txt)
 - [Copilot 2024-09-30](docs/assets/vscode/copilot-2024_09_30.txt)
 - [Copilot 2024-12-19](docs/assets/vscode/copilot-2024_12_19.txt)
+- [Nes Tab Completion](docs/assets/vscode/nes-tab-completion.md)
+- [Prompt Claude Sonnet 4](docs/assets/vscode/prompt-claude-sonnet-4.md)
+- [Prompt Gemini 2.5pro](docs/assets/vscode/prompt-gemini-2.5pro.md)
+- [Prompt GPT-4o](docs/assets/vscode/prompt-gpt-4o.md)
+- [Prompt GPT-5](docs/assets/vscode/prompt-gpt-5.md)
+- [Prompt GPT-5mini](docs/assets/vscode/prompt-gpt-5mini.md)
+- [Prompt GPT-4.1](docs/assets/vscode/prompt-gpt4.1.md)
 - [Prompt](docs/assets/vscode/prompt.txt)
 
 ### [Warp](https://www.warp.dev)
