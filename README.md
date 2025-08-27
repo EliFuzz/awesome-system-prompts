@@ -268,6 +268,7 @@ An opinionated list of awesome system prompts from various AI models.
 - [Grok3 2025-05-04](docs/assets/grok/grok3-2025_05_04.txt)
 - [Grok3 2025-05-09](docs/assets/grok/grok3-2025_05_09.txt)
 - [Grok3 2025-06-05](docs/assets/grok/grok3-2025_06_05.txt)
+- [Code Fast 2025-08-01](docs/assets/grok/prompt-code-fast-2025-08-01.md)
 
 ### [Hume](https://hume.ai)
 
