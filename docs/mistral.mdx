@@ -8,8 +8,9 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
-import Chat from "!raw-loader!./assets/mistral/chat.txt";
-import Mistral2025_04_25 from "!raw-loader!./assets/mistral/mistral-2025_04_25.txt";
+import Chat from "!raw-loader!./assets/mistral/chat.md";
+import Mistral2025_04_25 from "!raw-loader!./assets/mistral/mistral-2025_04_25.md";
+import Prompt from "!raw-loader!./assets/mistral/prompt.md";
 
 <Tabs queryString="primary">
   <TabItem value="chat" label="Chat">
@@ -17,5 +18,8 @@ import Mistral2025_04_25 from "!raw-loader!./assets/mistral/mistral-2025_04_25.t
   </TabItem>
   <TabItem value="mistral-2025-04-25" label="Mistral 2025 (04/25)">
     <CodeBlock language="markdown">{Mistral2025_04_25}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt" label="Prompt">
+    <CodeBlock language="markdown">{Prompt}</CodeBlock>
   </TabItem>
 </Tabs>
