@@ -1,0 +1,29 @@
+---
+title: Treacer AI
+description: Treacer AI Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+import ToolsPhase from "!!raw-loader!./assets/tracerai/tools-phase-mode.json";
+import ToolsPlan from "!!raw-loader!./assets/tracerai/tools-plan-mode.json";
+import PromptPhase from "!raw-loader!./assets/tracerai/prompt-phase-mode.md";
+import PromptPlan from "!raw-loader!./assets/tracerai/prompt-plan-mode.md";
+
+<Tabs queryString="primary">
+  <TabItem value="tools-phase" label="Tools Phase">
+    <CodeBlock language="json">{ToolsPhase}</CodeBlock>
+  </TabItem>
+  <TabItem value="tools-plan" label="Tools Plan">
+    <CodeBlock language="json">{ToolsPlan}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-phase" label="Prompt Phase">
+    <CodeBlock language="markdown">{PromptPhase}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-plan" label="Prompt Plan">
+    <CodeBlock language="markdown">{PromptPlan}</CodeBlock>
+  </TabItem>
+</Tabs>
