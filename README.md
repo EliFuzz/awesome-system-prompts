@@ -502,6 +502,13 @@ An opinionated list of awesome system prompts from various AI models.
 - [Grok 4](docs/assets/telegram/prompt-bot-grok4.md)
 - [Perplexity](docs/assets/telegram/prompt-bot-perplexity.md)
 
+### [Tracer AI](https://www.tracer.ai/)
+
+- [Prompt Phase](docs/assets/tracerai/prompt-phase-mode.md)
+- [Prompt Plan](docs/assets/tracerai/prompt-plan-mode.md)
+- [Tools Phase](docs/assets/tracerai/tools-phase-mode.json)
+- [Tools Plan](docs/assets/tracerai/tools-plan-mode.json)
+
 ### [Trae](https://trae.ai)
 
 - [Chat](docs/assets/trae/chat.md)
