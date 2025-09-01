@@ -286,9 +286,12 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Kiro](https://kiro.dev)
 
-- [Mode Classifier](docs/assets/kiro/mode-clasifier-prompt.txt)
-- [Specification](docs/assets/kiro/spec-prompt.txt)
-- [Vibe](docs/assets/kiro/vibe-prompt.txt)
+- [Mode Classifier](docs/assets/kiro/prompt-mode-clasifier.md)
+- [Specification](docs/assets/kiro/prompt-spec-design-document.md)
+- [Implementation Plan](docs/assets/kiro/prompt-spec-implementation-plan.md)
+- [Requirement Clarification](docs/assets/kiro/prompt-spec-requirement-clarification.md)
+- [Task Execution](docs/assets/kiro/prompt-spec-task-execution.md)
+- [System Prompt](docs/assets/kiro/prompt.md)
 
 ### [Lovable](https://lovable.ai)
 
