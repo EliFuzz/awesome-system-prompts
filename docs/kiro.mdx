@@ -8,18 +8,41 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
-import ModeClassifier from "!raw-loader!./assets/kiro/mode-clasifier-prompt.txt";
-import SpecPrompt from "!raw-loader!./assets/kiro/spec-prompt.txt";
-import VibePrompt from "!raw-loader!./assets/kiro/vibe-prompt.txt";
+import PromptModeClassifier from "!raw-loader!./assets/kiro/prompt-mode-clasifier.md";
+import PromptSpecDesignDocument from "!raw-loader!./assets/kiro/prompt-spec-design-document.md";
+import PromptSpecImplementationPlan from "!raw-loader!./assets/kiro/prompt-spec-implementation-plan.md";
+import PromptSpecRequirementClarification from "!raw-loader!./assets/kiro/prompt-spec-requirement-clarification.md";
+import PromptSpecTaskExecution from "!raw-loader!./assets/kiro/prompt-spec-task-execution.md";
+import Prompt from "!raw-loader!./assets/kiro/prompt.md";
 
 <Tabs queryString="primary">
-  <TabItem value="mode-classifier-prompt" label="Mode Classifier Prompt">
-    <CodeBlock language="markdown">{ModeClassifier}</CodeBlock>
+  <TabItem value="mode-classifier" label="Mode Classifier" default>
+    <CodeBlock className="language-markdown">{PromptModeClassifier}</CodeBlock>
   </TabItem>
-  <TabItem value="spec-prompt" label="Specification Prompt">
-    <CodeBlock language="markdown">{SpecPrompt}</CodeBlock>
+  <TabItem value="spec-design-document" label="Spec Design Document">
+    <CodeBlock className="language-markdown">
+      {PromptSpecDesignDocument}
+    </CodeBlock>
   </TabItem>
-  <TabItem value="vibe-prompt" label="Vibe Prompt">
-    <CodeBlock language="markdown">{VibePrompt}</CodeBlock>
+  <TabItem value="spec-implementation-plan" label="Spec Implementation Plan">
+    <CodeBlock className="language-markdown">
+      {PromptSpecImplementationPlan}
+    </CodeBlock>
+  </TabItem>
+  <TabItem
+    value="spec-requirement-clarification"
+    label="Spec Requirement Clarification"
+  >
+    <CodeBlock className="language-markdown">
+      {PromptSpecRequirementClarification}
+    </CodeBlock>
+  </TabItem>
+  <TabItem value="spec-task-execution" label="Spec Task Execution">
+    <CodeBlock className="language-markdown">
+      {PromptSpecTaskExecution}
+    </CodeBlock>
+  </TabItem>
+  <TabItem value="system-prompt" label="System Prompt">
+    <CodeBlock className="language-markdown">{Prompt}</CodeBlock>
   </TabItem>
 </Tabs>
