@@ -56,7 +56,8 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Brave Leo](https://brave.com/leo/)
 
-- [2024-06-01](docs/assets/brave/leo-2024_06_01.md)
+- [Prompt 2025-09-01](docs/assets/brave/prompt-2025-09-01.md)
+- [Prompt 2024-06-01](docs/assets/brave/prompt-2024_06_01.md)
 
 ### [Canva](https://www.canva.com)
 
