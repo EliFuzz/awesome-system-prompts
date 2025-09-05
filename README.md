@@ -195,6 +195,7 @@ An opinionated list of awesome system prompts from various AI models.
 - [Sonnet 3.7 (2025-03-09)](docs/assets/cursor/sonnet-3_7-2025_03_09.txt)
 - [Sonnet 3.7 (Agent Prompt)](docs/assets/cursor/sonnet-3_7-agent-prompt.txt)
 - [Tool Usage](docs/assets/cursor/tool-usage.txt)
+- [Prompt (2025-09-03)](docs/assets/cursor/prompt-2025-09-03.md)
 
 ### [Databricks](https://www.databricks.com)
 
