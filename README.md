@@ -203,6 +203,7 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Devin](https://www.cognition-labs.com/introducing-devin)
 
+- [Prompt (09-08-2025)](docs/assets/devin/prompt-09-08-2025.md)
 - [Available Commands](docs/assets/devin/available-commands.txt)
 - [Coding Security](docs/assets/devin/coding-security.txt)
 - [Persona](docs/assets/devin/persona.txt)
@@ -343,7 +344,9 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Notion](https://www.notion.so)
 
-- [Prompt 2022-12-28](docs/assets/notion/prompt-2022_12_28.txt)
+- [Prompt 2025-09-01](docs/assets/notion/prompt-09-01-2025.md)
+- [Tools](docs/assets/notion/tools.json)
+- [Prompt 2024-12-28](docs/assets/notion/prompt-2024_12_28.txt)
 - [Prompt](docs/assets/notion/prompt.txt)
 
 ### [Notte](https://www.notte.ai)
