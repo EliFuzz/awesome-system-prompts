@@ -8,14 +8,22 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
-import Prompt2022_12_28 from "!raw-loader!./assets/notion/prompt-2022_12_28.txt";
+import Tools from "!!raw-loader!./assets/notion/tools.json";
+import Prompt2025_09_01 from "!raw-loader!./assets/notion/prompt-09-01-2025.md";
+import Prompt2024_12_28 from "!raw-loader!./assets/notion/prompt-2024_12_28.txt";
 import Prompt from "!raw-loader!./assets/notion/prompt.txt";
 
 <Tabs queryString="primary">
+  <TabItem value="prompt-09-01-2025" label="Prompt 2025 (09/01)">
+    <CodeBlock language="markdown">{Prompt2025_09_01}</CodeBlock>
+  </TabItem>
+  <TabItem value="tools" label="Tools">
+    <CodeBlock language="json">{Tools}</CodeBlock>
+  </TabItem>
   <TabItem value="prompt" label="Prompt">
     <CodeBlock language="markdown">{Prompt}</CodeBlock>
   </TabItem>
   <TabItem value="prompt-2022-12-28" label="Prompt 2022 (12/28)">
-    <CodeBlock language="markdown">{Prompt2022_12_28}</CodeBlock>
+    <CodeBlock language="markdown">{Prompt2024_12_28}</CodeBlock>
   </TabItem>
 </Tabs>
