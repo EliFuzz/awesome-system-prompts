@@ -8,10 +8,18 @@ import CodeBlock from "@theme/CodeBlock";
 import TabItem from "@theme/TabItem";
 import Tabs from "@theme/Tabs";
 
+import Prompt2025_09_01 from "!raw-loader!./assets/codex/codex-prompt-2025-09-01.md";
 import Prompt2025_08_01 from "!raw-loader!./assets/codex/prompt-2025-08-01.md";
-import Prompt from "!raw-loader!./assets/codex/prompt.txt";
+import Prompt from "!raw-loader!./assets/codex/prompt.md";
+import PromptSystem from "!raw-loader!./assets/codex/prompt_system.md";
 
 <Tabs queryString="primary">
+  <TabItem value="prompt-2025-09-01" label="Prompt 2025-09-01">
+    <CodeBlock language="markdown">{Prompt2025_09_01}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-system" label="Prompt System">
+    <CodeBlock language="markdown">{PromptSystem}</CodeBlock>
+  </TabItem>
   <TabItem value="prompt-2025-08-01" label="Prompt 2025-08-01">
     <CodeBlock language="markdown">{Prompt2025_08_01}</CodeBlock>
   </TabItem>
