@@ -1,0 +1,47 @@
+---
+title: Poke
+description: Poke Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+import Agent from "!raw-loader!./assets/poke/agent.md";
+import PromptAgentProtocol from "!raw-loader!./assets/poke/prompt_agent_protocol.md";
+import PromptEmailProtocols from "!raw-loader!./assets/poke/prompt_email_protocols.md";
+import PromptGuidelines from "!raw-loader!./assets/poke/prompt_guidelines.md";
+import PromptIntegrationPolicies from "!raw-loader!./assets/poke/prompt_integration_policies.md";
+import PromptMemoryGuidelines from "!raw-loader!./assets/poke/prompt_memory_guidelines.md";
+import PromptPlatformGuidelines from "!raw-loader!./assets/poke/prompt_platform_guidelines.md";
+
+<Tabs queryString="primary">
+  <TabItem value="agent" label="Agent">
+    <CodeBlock language="markdown">{Agent}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-agent-protocol" label="Prompt Agent Protocol">
+    <CodeBlock language="markdown">{PromptAgentProtocol}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-email-protocols" label="Prompt Email Protocols">
+    <CodeBlock language="markdown">{PromptEmailProtocols}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-guidelines" label="Prompt Guidelines">
+    <CodeBlock language="markdown">{PromptGuidelines}</CodeBlock>
+  </TabItem>
+  <TabItem
+    value="prompt-integration-policies"
+    label="Prompt Integration Policies"
+  >
+    <CodeBlock language="markdown">{PromptIntegrationPolicies}</CodeBlock>
+  </TabItem>
+  <TabItem value="prompt-memory-guidelines" label="Prompt Memory Guidelines">
+    <CodeBlock language="markdown">{PromptMemoryGuidelines}</CodeBlock>
+  </TabItem>
+  <TabItem
+    value="prompt-platform-guidelines"
+    label="Prompt Platform Guidelines"
+  >
+    <CodeBlock language="markdown">{PromptPlatformGuidelines}</CodeBlock>
+  </TabItem>
+</Tabs>
