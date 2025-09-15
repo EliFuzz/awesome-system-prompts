@@ -296,6 +296,11 @@ An opinionated list of awesome system prompts from various AI models.
 - [Task Execution](docs/assets/kiro/prompt-spec-task-execution.md)
 - [System Prompt](docs/assets/kiro/prompt.md)
 
+### [Leap.new](https://leap.new)
+
+- [Prompt](docs/assets/leap/prompt.md)
+- [Tools](docs/assets/leap/tools.json)
+
 ### [Lovable](https://lovable.ai)
 
 - [Agent Prompt](docs/assets/lovable/agent-prompt.txt)
@@ -445,6 +450,16 @@ An opinionated list of awesome system prompts from various AI models.
 ### [Phind](https://www.phind.com)
 
 - [Phind 2024-04-27](docs/assets/phind/phind-2024_04_27.txt)
+
+### [Poke](https://poke.dev)
+
+- [Agent](docs/assets/poke/agent.md)
+- [Prompt Agent Protocol](docs/assets/poke/prompt_agent_protocol.md)
+- [Prompt Email Protocols](docs/assets/poke/prompt_email_protocols.md)
+- [Prompt Guidelines](docs/assets/poke/prompt_guidelines.md)
+- [Prompt Integration Policies](docs/assets/poke/prompt_integration_policies.md)
+- [Prompt Memory Guidelines](docs/assets/poke/prompt_memory_guidelines.md)
+- [Prompt Platform Guidelines](docs/assets/poke/prompt_platform_guidelines.md)
 
 ### [Proton](https://proton.me/)
 
