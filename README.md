@@ -109,6 +109,7 @@ An opinionated list of awesome system prompts from various AI models.
 - [Memory Tool](docs/assets/claude-code/memory-tool.js)
 - [Persona Modes](docs/assets/claude-code/persona-modes.txt)
 - [Prompt 2025-07-06](docs/assets/claude-code/prompt-2025-07-06.txt)
+- [Prompt 2025-09-01](docs/assets/claude-code/prompt-2025-09-01.md)
 - [Read Notebook](docs/assets/claude-code/read-notebook.js)
 - [System Prompt 0.2.9](docs/assets/claude-code/system-prompt-0_2_9.txt)
 - [System](docs/assets/claude-code/system.js)
