@@ -446,6 +446,7 @@ An opinionated list of awesome system prompts from various AI models.
 - [Perplexity 2024-05-13](docs/assets/perplexity/perplexity-2024_05_13.txt)
 - [Perplexity 2024-06-07](docs/assets/perplexity/perplexity-2024_06_07.txt)
 - [Perplexity 2025-01-12](docs/assets/perplexity/perplexity-2025_01_12.txt)
+- [Prompt Comet](docs/assets/perplexity/prompt-comet.md)
 - [Prompt](docs/assets/perplexity/prompt.txt)
 - [Voice Assistant](docs/assets/perplexity/voice-assistant.txt)
 
