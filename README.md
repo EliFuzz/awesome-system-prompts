@@ -166,7 +166,8 @@ An opinionated list of awesome system prompts from various AI models.
 
 ### [Codex](https://openai.com/blog/openai-codex)
 
-- [Codex Prompt 2025-09-01](docs/assets/codex/codex-prompt-2025-09-01.md)
+- [Prompt 2025-09-20](docs/assets/codex/prompt-2025-09-20.md)
+- [Prompt 2025-09-01](docs/assets/codex/prompt-2025-09-01.md)
 - [Prompt System](docs/assets/codex/prompt_system.md)
 - [Prompt 2025-08-01](docs/assets/codex/prompt-2025-08-01.md)
 - [Prompt](docs/assets/codex/prompt.md)
