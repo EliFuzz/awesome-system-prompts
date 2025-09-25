@@ -157,3 +157,5 @@ out/
 .env
 
 .*.bkp
+
+.vscode
