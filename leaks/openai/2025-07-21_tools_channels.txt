@@ -1,0 +1,34 @@
+# O3: The Channel System
+
+The O3 prompt introduces a rigid "channel" system to structure its reasoning and responses. Every message from the model **must** be assigned to one of three valid channels: `analysis`, `commentary`, or `final`.
+
+This system separates the model's internal "thought process" from the tools that generate user-visible content and the final, polished answer.
+
+## 1. The `analysis` Channel
+
+- **Purpose:** For private reasoning and internal analysis tool calls.
+- **Visibility:** Content in this channel is **never** shown directly to the user.
+- **Allowed Tools:**
+  - `python` (the private version)
+  - `web`
+  - `user_info`
+  - `guardian_tool`
+  - `file_search`
+
+## 2. The `commentary` Channel
+
+- **Purpose:** For user-visible tool calls only. This is how O3 generates rich content like plots, tables, and interactive documents.
+- **Visibility:** The _output_ of these tools is shown to the user.
+- **Content Rule:** This channel is **only** for tool calls. No plain-text messages or reasoning are allowed.
+- **Allowed Tools:**
+  - `python_user_visible`
+  - `canmore` (and its functions `create_textdoc`, `update_textdoc`, `comment_textdoc`)
+  - `automations`
+  - `image_gen`
+  - `bio` (Note: `bio` is mentioned here but not defined elsewhere in the provided prompt)
+
+## 3. The `final` Channel
+
+- **Purpose:** For the assistant's final, user-facing reply.
+- **Content Rule:** This channel should contain only the polished, conversational response. It must not contain any tool calls or private chain-of-thought.
+- **Visibility:** This is the text the user reads as the model's direct answer.

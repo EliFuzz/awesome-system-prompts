@@ -1,0 +1,25 @@
+---
+title: whatsapp
+description: whatsapp Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-08-19 prompt" label="2025-08-19 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/whatsapp/2025-08-19_prompt.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-20 prompt meta-ai" label="2025-07-20 prompt meta-ai" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/whatsapp/2025-07-20_prompt_meta-ai.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-20 prompt llama4" label="2025-07-20 prompt llama4" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/whatsapp/2025-07-20_prompt_llama4.md').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

@@ -1,0 +1,35 @@
+---
+title: augment
+description: augment Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-08-18 tools sonnet4" label="2025-08-18 tools sonnet4" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/augment/2025-08-18_tools_sonnet4.json').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-18 tools gpt5" label="2025-08-18 tools gpt5" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/augment/2025-08-18_tools_gpt5.json').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-18 prompt sonnet4 agent" label="2025-08-18 prompt sonnet4 agent" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/augment/2025-08-18_prompt_sonnet4_agent.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-18 prompt gpt5 agent" label="2025-08-18 prompt gpt5 agent" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/augment/2025-08-18_prompt_gpt5_agent.md').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+    <TabItem value="archived" label="archived">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-07-27 tools sonnet37-archived" label="2025-07-27 tools sonnet37" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/augment/archived/2025-07-27_tools_sonnet37.json').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

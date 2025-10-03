@@ -1,0 +1,36 @@
+# Lovable: Included Codebase
+
+A unique aspect of the Lovable prompt is that it includes the full contents of a starter web application directly within its `<current-code>` section. This provides the model with the exact state of the project from the very beginning.
+
+The prompt defines two categories of files: "Allowed files" and "Forbidden files."
+
+## Allowed Files
+
+These are the files that Lovable is permitted to modify using the `<lov-write>` command.
+
+- `README.md`: A standard README with instructions on how to use Lovable or work locally.
+- `eslint.config.js`: ESLint configuration file.
+- `index.html`: The main HTML entry point for the application.
+- `tailwind.config.ts`: Tailwind CSS configuration with a pre-defined theme.
+- `vite.config.ts`: Vite configuration, including the `lovable-tagger` plugin for development mode.
+- `src/App.css`: Some basic CSS styles.
+- `src/App.tsx`: The root React component, which sets up providers (`QueryClientProvider`, `TooltipProvider`), the toaster, and routing.
+- `src/index.css`: Global CSS file that includes Tailwind directives and defines CSS variables for the theme.
+- `src/main.tsx`: The main TypeScript entry point that renders the `App` component.
+- `src/vite-env.d.ts`: TypeScript declarations for Vite.
+- `src/hooks/use-mobile.tsx`: A custom hook to detect if the user is on a mobile device.
+- `src/hooks/use-toast.ts`: A custom hook for managing toast notifications.
+- `src/lib/utils.ts`: A utility file containing a `cn` function for merging Tailwind classes.
+- `src/pages/Index.tsx`: The default index page of the application, which is a simple placeholder.
+
+## Forbidden Files
+
+These are files that exist in the project but which Lovable is **not** allowed to modify. This list primarily consists of:
+
+- Configuration files like `.gitignore`, `package.json`, `tsconfig.json`, etc.
+- Static assets in the `public` directory.
+- The entire `shadcn/ui` component library located in `src/components/ui/`. This enforces the rule that Lovable should use these components as-is or create new ones, but not edit the library files directly.
+
+## Dependencies
+
+The prompt also includes a detailed list of all `dependencies` and `devDependencies` that are pre-installed in the project, ensuring the model knows exactly which packages are available without having to guess or check `package.json` (which it is forbidden from reading or writing directly).

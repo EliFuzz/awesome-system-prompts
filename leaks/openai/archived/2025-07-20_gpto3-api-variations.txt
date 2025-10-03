@@ -1,0 +1,27 @@
+# O3: API Variations
+
+In addition to the main `o3.md` prompt for the ChatGPT app, there are specific variations for when the model is accessed via an API (`o3-low-api.md`, `o3-medium-api.md`, `o3-high-api.md`). These prompts modify the base behavior with rules for formatting, verbosity, and available tools.
+
+## Key Differences from the Main App Prompt
+
+1. **Simplified Channels:** The API versions only allow for two channels: `analysis` and `final`. The `commentary` channel and all the tools that use it (`python_user_visible`, `canmore`, `image_gen`, etc.) are removed. This implies that the API versions cannot generate user-visible rich content like charts or interactive canvases.
+2. **Formatting Restrictions:** The API prompts explicitly state that the output may be parsed by code. Therefore, the model must **avoid heavily formatted elements** like Markdown (except bullet lists), LaTeX, tables, or horizontal lines unless the user explicitly requests them.
+3. **The "Yap Score":** This is a new concept introduced to control response length.
+    - It's a measure of how verbose the answer should be.
+    - A higher Yap score expects a more thorough answer, while a lower score prefers a concise one.
+    - The prompt states, "To a first approximation, your answers should tend to be at most Yap words long."
+    - In all three provided API prompts, the `Yap score` is set to `8192`, indicating that long, thorough answers are acceptable, but the framework allows for this to be tuned.
+
+## `Juice` Score
+
+Each of the API prompts contains a `Juice` score, which appears to be the only significant difference between them.
+
+- `o3-low-api.md`: `# Juice: 32`
+- `o3-medium-api.md`: `# Juice: 64`
+- `o3-high-api.md`: `# Juice: 512`
+
+The function of the `Juice` score is not explicitly defined in the prompt, but its increasing value from "low" to "high" suggests it is an internal metric, likely related to one or more of the following:
+
+- Computational resource allocation.
+- The complexity or "quality" of reasoning to be applied.
+- Internal confidence or scoring thresholds.

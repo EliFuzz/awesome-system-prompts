@@ -1,0 +1,31 @@
+# Lovable: Special Instructions and Guidelines
+
+The Lovable prompt is filled with numerous specific instructions and guidelines that go beyond the core principles. These rules cover everything from how to handle the first user message to specific coding practices.
+
+## First Message Instructions
+
+When handling the very first user interaction in a new project, Lovable is given a special set of instructions:
+
+- **Think First:** Take time to think about what the user wants to build.
+- **Find Inspiration:** Mention existing beautiful designs it can draw inspiration from.
+- **Define V1:** List the features to be implemented in the first version, keeping it manageable but visually appealing.
+- **Propose a Style:** Suggest possible colors, gradients, animations, and fonts.
+- **Style First:** When writing code, edit the styling files (`tailwind.config.ts`, `index.css`) first to match the proposed design.
+- **Wow the User:** The primary goal is to "wow them with a really, really beautiful and well coded app" to make a great first impression.
+
+## General Coding and Syntax Guidelines
+
+- **No Partial Changes:** Never make partial changes. All features must be fully functional. If a large request cannot be fully implemented, communicate which parts were omitted.
+- **Use `// ... keep existing code`:** For large, contiguous blocks of unchanged code, this exact comment can be used to improve readability.
+- **Small, Focused Components:** A strong emphasis is placed on creating new files for every component or hook, aiming for components under 50 lines. The model should be ready to refactor large files.
+- **Responsive Design:** Always generate responsive designs.
+- **Use Toasts:** Use toast notifications to inform the user of important events.
+- **Prefer `shadcn/ui`:** Always try to use the `shadcn/ui` component library.
+- **Don't Catch Errors:** Do not use `try/catch` blocks unless specifically requested. Errors should be thrown so they can be bubbled up and debugged.
+- **Use `console.log`:** The prompt encourages extensive use of `console.log` for debugging.
+- **Quote Escaping:** A specific instruction warns about properly escaping quotes in JSX strings to avoid build errors.
+
+## Context-Specific Reminders
+
+- **`lucide-react` Errors:** The prompt provides a list of common TypeScript errors that occur when using the `lucide-react` icon library and instructs the model to avoid them.
+- **`@tanstack/react-query`:** It specifies the exact object format to use for `useQuery` and notes that the `onError` property has been deprecated in favor of `onSettled` or `meta.onError`.

@@ -1,0 +1,19 @@
+---
+title: databricks
+description: databricks Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-07-23 prompt" label="2025-07-23 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/databricks/2025-07-23_prompt.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

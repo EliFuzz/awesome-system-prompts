@@ -1,0 +1,22 @@
+# Lovable: Example-Driven Development
+
+A key feature of the Lovable prompt is its heavy reliance on a set of detailed examples to define correct behavior. These examples are not just suggestions; they serve as a primary mechanism for instruction, demonstrating the expected flow and syntax for different scenarios.
+
+## The Role of Examples
+
+The `<examples>` section of the prompt provides a series of `<user_message>` and `<ai_message>` pairs that illustrate how to handle specific types of requests. These examples are crucial for understanding:
+
+1. **Response Structure:** They show the correct nesting of tags like `<lov-code>`, `<lov-thinking>`, and `<lov-write>`.
+2. **Mode Selection:** They implicitly teach the model when to enter "Implementation Mode" versus "Informational Mode." For instance, a "Show me the code" request results in a simple markdown response, while a "Refactor..." request triggers a full `<lov-code>` block.
+3. **Command Syntax:** They provide concrete usage patterns for file operations, such as how to structure a refactoring that involves both deleting a file (`<lov-delete>`) and updating another (`<lov-write>`), or how to add a new dependency (`<lov-add-dependency>`) as part of a feature update.
+4. **Explanatory Text:** The examples dictate the tone and style of the explanatory text that should precede and follow a `<lov-code>` block, emphasizing a brief, non-technical introduction and a very concise summary.
+
+## Key Scenarios Covered by Examples
+
+- **Refactoring:** Moving a function to a separate utility file, requiring updates to one file and creation of another.
+- **Updating and Adding a Dependency:** Changing a component's style and functionality, which also requires installing a new package (`lodash`) via `<lov-add-dependency>`.
+- **Deleting and Modifying:** Removing a component entirely and updating another component to work without it.
+- **Purely Informational Request:** Simply showing a block of code to the user without making any changes, which uses a standard markdown code block instead of `<lov-code>`.
+- **File Renaming:** Using `<lov-rename>` to fix a file extension issue.
+
+These examples effectively form a core part of the "rules," teaching by demonstration rather than by abstract description alone.

@@ -1,0 +1,28 @@
+# Lovable: Response Structure Tags
+
+Lovable uses a detailed set of XML-like tags to structure its responses and manage the flow of information. These tags define how to handle code, thoughts, errors, and various contextual elements.
+
+## Core Wrapper Tags
+
+- **`<lov-code>`**: This is the primary wrapper for all technical details in a response. Any file operations or code-related thinking should be enclosed within this tag.
+- **`<response_format>`**: This tag is used to define the overall structure of a response, often containing `<user_message>` and `<ai_message>` blocks.
+
+## Thought and Status Tags
+
+- **`<lov-thinking>`**: An optional tag used to show Lovable's thought process. This is for explaining _why_ certain decisions are being made.
+- **`<lov-error>`**: Used to display error messages when an operation fails.
+- **`<lov-success>`**: Used to confirm that an operation has completed successfully.
+
+## Context and Information Tags
+
+These tags are used to reference different pieces of information within the prompt's context.
+
+- **`<user_message>`**: References the input from the user.
+- **`<ai_message>`**: Represents Lovable's own response.
+- **`<examples>`**: Provides code examples to the user.
+- **`<guidelines>`**: Shares coding guidelines or best practices.
+- **`<console-logs>`**: Accesses and displays debugging information from the application's console.
+- **`<useful-context>`**: Provides relevant documentation or other helpful context.
+- **`<current-route>`**: Tracks the user's current location (route) within the web application.
+- **`<instructions-reminder>`**: References key instructions from the prompt itself.
+- **`<last-diff>`**: Shows the most recent changes (diff) made to the codebase.

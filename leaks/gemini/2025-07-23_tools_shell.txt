@@ -1,0 +1,29 @@
+# ShellTool
+
+## Description
+
+This tool executes a given shell command as `bash -c <command>`. Command can start background processes using `&`.
+
+## Input Schema
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "command": {
+      "type": "string",
+      "description": "Exact bash command to execute"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the command"
+    },
+    "directory": {
+      "type": "string",
+      "description": "Directory to run the command in, relative to project root"
+    }
+  },
+  "required": ["command"],
+  "additionalProperties": false
+}
+```

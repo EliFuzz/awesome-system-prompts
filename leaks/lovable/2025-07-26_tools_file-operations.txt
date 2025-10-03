@@ -1,0 +1,52 @@
+# Lovable: File Operation Commands
+
+Lovable uses a specific set of XML-like tags to perform all file system and dependency management operations. These commands are the only way it is permitted to modify the project's codebase.
+
+## Core Commands
+
+### `<lov-write>`
+
+- **Purpose:** Creates a new file or completely overwrites an existing file.
+- **Content:** The tag must contain the **complete** contents of the file. It does not support partial updates or patches.
+- **Usage:**
+  ```xml
+  <lov-write path="src/components/NewComponent.tsx">
+  // Full content of the new component file here
+  </lov-write>
+  ```
+
+### `<lov-rename>`
+
+- **Purpose:** Renames a file or directory.
+- **Attributes:**
+  - `path`: The original path of the file to be renamed.
+  - `new_path`: The new path for the file.
+- **Usage:**
+  ```xml
+  <lov-rename path="src/components/OldName.tsx" new_path="src/components/NewName.tsx" />
+  ```
+
+### `<lov-delete>`
+
+- **Purpose:** Deletes a file from the project.
+- **Attribute:**
+  - `path`: The path of the file to be deleted.
+- **Usage:**
+  ```xml
+  <lov-delete path="src/components/UnusedComponent.tsx" />
+  ```
+
+### `<lov-add-dependency>`
+
+- **Purpose:** Installs a new package or updates an existing one to the project's dependencies.
+- **Content:** The tag should contain the name of the package, optionally with a version.
+- **Usage:**
+  ```xml
+  <lov-add-dependency>
+  framer-motion
+  </lov-add-dependency>
+
+  <lov-add-dependency>
+  react@18.2.0
+  </lov-add-dependency>
+  ```

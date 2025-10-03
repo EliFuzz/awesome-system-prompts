@@ -1,0 +1,28 @@
+---
+title: tracerai
+description: tracerai Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-08-30 tools plan-mode" label="2025-08-30 tools plan-mode" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/tracerai/2025-08-30_tools_plan-mode.json').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-30 tools phase-mode" label="2025-08-30 tools phase-mode" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/tracerai/2025-08-30_tools_phase-mode.json').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-30 prompt plan-mode" label="2025-08-30 prompt plan-mode" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/tracerai/2025-08-30_prompt_plan-mode.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-30 prompt phase-mode" label="2025-08-30 prompt phase-mode" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/tracerai/2025-08-30_prompt_phase-mode.md').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

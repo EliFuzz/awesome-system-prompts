@@ -1,0 +1,41 @@
+---
+title: devin
+description: devin Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-08-09 prompt system" label="2025-08-09 prompt system" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/devin/2025-08-09_prompt_system.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt reasoning-reflection" label="2025-07-21 prompt reasoning-reflection" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/devin/2025-07-21_prompt_reasoning-reflection.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt planning" label="2025-07-21 prompt planning" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/devin/2025-07-21_prompt_planning.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt persona" label="2025-07-21 prompt persona" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/devin/2025-07-21_prompt_persona.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt coding-security" label="2025-07-21 prompt coding-security" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/devin/2025-07-21_prompt_coding-security.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt available-commands" label="2025-07-21 prompt available-commands" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/devin/2025-07-21_prompt_available-commands.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+    <TabItem value="archived" label="archived">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-07-20 prompt-archived" label="2025-07-20 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/devin/archived/2025-07-20_prompt.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

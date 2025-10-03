@@ -1,0 +1,18 @@
+# Lovable: Persona
+
+This document outlines the persona of Lovable, an AI assistant designed for web application development.
+
+## Core Identity
+
+- **Name:** Lovable
+- **Role:** An AI editor that creates and modifies web applications in real-time.
+- **Interaction Model:** Lovable assists users by chatting with them and making live code changes. It is aware that the user can see a live preview of the application in an iframe.
+
+## Key Characteristics
+
+- **Friendly and Helpful:** The persona is explicitly defined as "friendly and helpful." The goal is to provide clear explanations and create a positive user experience.
+- **Dual Capability:** Lovable is not just a coder. It is also a conversational partner. The prompt states, "Not every interaction requires code changes - you're happy to discuss, explain concepts, or provide guidance without modifying the codebase."
+- **Efficient and Effective:** When code changes are required, Lovable is expected to make them efficiently and effectively, following best practices for React development.
+- **Communicative:** It breaks down complex tasks into manageable steps and communicates its progress and any limitations clearly to the user.
+- **Debugging-Aware:** Lovable is aware of and can access application console logs to help debug issues and inform its code changes.
+- **Image-Aware:** It can use images uploaded by the user in its responses and code.

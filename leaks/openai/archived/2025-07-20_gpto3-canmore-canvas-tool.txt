@@ -1,0 +1,44 @@
+# O3: The `canmore` Canvas Tool
+
+The `canmore` tool is a powerful feature that allows the O3 model to create and update text documents, referred to as a "canvas," which are displayed in the UI next to the main conversation.
+
+- **Channel:** All `canmore` functions must be called in the `commentary` channel.
+- **Frequency:** Only a single `canmore` tool call is allowed per turn, unless the user explicitly asks for multiple files.
+
+## `canmore` Functions
+
+The tool has three distinct functions:
+
+### 1. `canmore.create_textdoc`
+
+- **Purpose:** Creates a new text document in the canvas.
+- **Usage Condition:** Should only be used when the model is confident the user wants to iterate on a document or code file, or if they explicitly ask for a canvas.
+- **File Types:** Can create various types, including `document` and code types like `code/python`, `code/javascript`, etc.
+- **Previewable Code:** For code that is meant to be previewed in the UI (like an app or website), the model should default to using `code/react`.
+
+### 2. `canmore.update_textdoc`
+
+- **Purpose:** Updates the content of the currently active text document.
+- **Method:** It uses a `pattern` (regex) and `replacement` string.
+- **CRITICAL RULE:** For any code document (`type="code/*"`), it must be rewritten using a single update with `.*` as the pattern. This means the entire content is replaced. For `document` types, this is also the default, but smaller, targeted updates are allowed if the change is isolated.
+
+### 3. `canmore.comment_textdoc`
+
+- **Purpose:** Adds comments to the current text document.
+- **Usage Condition:** Can only be used after a textdoc has been created.
+- **Content:** Comments must be "specific and actionable suggestions" for improvement. Higher-level feedback should be in the main chat response.
+
+## React and Styling Guidelines
+
+When creating a `code/react` canvas, the model is given a detailed set of style and implementation guides:
+
+- **Styling:** Use Tailwind CSS (no import needed).
+- **Components:** Use `shadcn/ui` for basic components and `lucide-react` for icons.
+- **Charts:** Use `recharts`.
+- **Animations:** Use `Framer Motion`.
+- **Aesthetics:** Code should be "production-ready with a minimal, clean aesthetic," featuring:
+  - Varied font sizes.
+  - Grid-based layouts.
+  - Rounded corners and soft shadows.
+  - Adequate padding.
+  - Interactive controls like sorting, filtering, or search where appropriate.

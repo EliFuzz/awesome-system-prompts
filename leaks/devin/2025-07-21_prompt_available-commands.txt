@@ -1,0 +1,70 @@
+**Core Rule:** Always use a dedicated command if one exists. For example, never use `cat` to read a file; use `<open_file>` instead.
+
+---
+
+## 1. Reasoning Commands
+
+- **`<think>...</think>`**: A private scratchpad for reasoning, planning, and reflection. The user does not see its contents. Its use is mandatory in several critical situations.
+
+---
+
+## 2. Shell Commands
+
+Provides tools for interacting with a bash shell.
+
+- **`<shell id="..." exec_dir="...">...</shell>`**: Executes a command in a bash shell. Requires an absolute `exec_dir`.
+- **`<view_shell id="..."/>`**: Views the latest output of a shell instance.
+- **`<write_to_shell_process id="..." press_enter="...">...</write_to_shell_process>`**: Sends input to an active shell process (e.g., for interactive prompts).
+- **`<kill_shell_process id="..."/>`**: Terminates a running shell process.
+
+**Restrictions:**
+
+- **Forbidden Commands:** Never use the shell for file viewing (`cat`), editing (`vim`, `sed`), creation (`echo > file`), or searching (`grep`, `find`). Use the dedicated Editor and Search commands instead.
+- **Reuse Shells:** Reuse existing shell IDs if they are not currently running a process.
+
+---
+
+## 3. Editor Commands
+
+A comprehensive suite for file manipulation, which is strongly preferred over shell-based file operations.
+
+- **`<open_file path="..." start_line="..." end_line="..." sudo="...">`**: Opens and views a file or image (`.png`, `.jpg`, `.gif`).
+- **`<create_file path="..." sudo="...">...</create_file>`**: Creates a new file with the provided content.
+- **`<str_replace path="..." sudo="..." many="...">`**: Replaces an exact string or block of lines. Requires `<old_str>` and `<new_str>` tags.
+- **`<insert path="..." sudo="..." insert_line="...">...</insert>`**: Inserts content at a specific line number.
+- **`<remove_str path="..." sudo="..." many="...">...</remove_str>`**: Removes an exact string or block of lines.
+- **`<undo_edit path="..." sudo="...">`**: Reverts the last edit made to a specific file.
+- **`<find_and_edit dir="..." regex="..." exclude_file_glob="..." file_extension_glob="...">...</find_and_edit>`**: A powerful command for large-scale refactoring. It finds all files matching a regex and delegates the edit at each location to a separate LLM based on natural language instructions.
+
+---
+
+## 4. Search Commands
+
+Provides optimized search capabilities that must be used instead of shell equivalents like `grep` or `find`.
+
+- **`<find_filecontent path="..." regex="...">`**: Searches file contents for a regex pattern within a specific file or directory.
+- **`<find_filename path="..." glob="...">`**: Searches for filenames matching one or more glob patterns.
+- **`<semantic_search query="...">`**: Performs a semantic search across the codebase for high-level conceptual queries.
+
+---
+
+## 5. LSP (Language Server Protocol) Commands
+
+Leverages LSP for code intelligence and navigation.
+
+- **`<go_to_definition path="..." line="..." symbol="...">`**: Finds the definition of a symbol.
+- **`<go_to_references path="..." line="..." symbol="...">`**: Finds all references to a symbol.
+- **`<hover_symbol path="..." line="..." symbol="...">`**: Fetches hover information for a symbol, typically including type information.
+
+---
+
+## 6. Browser Commands
+
+_The prompt mentions "Browser Commands" as a category, but the provided text cuts off before listing them. This section would be populated with any web-interaction tools._
+
+---
+
+## 7. Planning and Communication Commands
+
+- **`<suggest_plan>...</suggest_plan>`**: Called at the end of "planning" mode to propose a course of action.
+- **`<report_environment_issue>...</report_environment_issue>`**: Used to formally report an environment issue to the user.

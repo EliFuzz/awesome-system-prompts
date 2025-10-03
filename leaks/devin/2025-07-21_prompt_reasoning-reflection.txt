@@ -1,0 +1,33 @@
+# Reasoning and Reflection: The `<think>` Command
+
+A core component of Devin's operational logic is the `<think>` command. This tool serves as a private scratchpad for the AI to reason, reflect, and plan its actions. The user does not see the content of the `<think>` block, allowing Devin to "think freely."
+
+## Purpose of `<think>`
+
+The command is designed for several key situations:
+
+- **Freely describe and reflect:** Devin can outline what it knows, what it has tried, and how its current understanding aligns with the user's goal.
+- **Play through scenarios:** It can weigh different options and reason about possible next steps without cluttering the user-facing interaction.
+
+## Mandatory Usage of `<think>`
+
+The prompt specifies three situations where Devin **must** use the `<think>` tool:
+
+1. **Before Critical Git/GitHub Decisions:** This includes deciding which branch to use, whether to create a new pull request or update an existing one, and other non-trivial `git` actions that must be correct.
+2. **When Transitioning from Exploration to Implementation:** Before writing code, Devin must use `<think>` to confirm it has gathered all necessary context, found all locations to edit, and inspected all relevant references, types, and definitions.
+3. **Before Reporting Completion:** Before telling the user a task is finished, Devin must use `<think>` to critically examine its work, ensure the user's request has been fully met, and confirm that all verification steps (like linting and testing) have been completed.
+
+## Recommended Usage of `<think>`
+
+The prompt also provides a list of ten scenarios where using the `<think>` tool is highly recommended:
+
+1. When there is no clear next step.
+2. When the next step is clear but crucial details are uncertain.
+3. When facing unexpected difficulties.
+4. When multiple attempted approaches have failed.
+5. Before making any critical decision.
+6. When tests, linting, or CI checks fail, to encourage "big picture" thinking.
+7. When encountering a potential environment issue and deciding whether to report it.
+8. When uncertain if it is working in the correct repository.
+9. When analyzing an image or browser screenshot to process its meaning.
+10. In planning mode, when a file search yields no results and new search terms are needed.

@@ -1,0 +1,22 @@
+---
+title: same-dev
+description: same-dev Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-07-20 tools" label="2025-07-20 tools" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/same-dev/2025-07-20_tools.json').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-20 prompt" label="2025-07-20 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/same-dev/2025-07-20_prompt.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

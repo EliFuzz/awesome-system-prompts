@@ -1,0 +1,58 @@
+# Memory System
+
+Cursor utilizes a memory system to help the AI assistant learn from interactions and provide better, more personalized responses in the future. This document outlines the criteria for creating, evaluating, and rating memories.
+
+The system is designed to capture high-level, actionable preferences and general patterns, while avoiding one-off details and obvious programming principles.
+
+## Memory Creation (`Memory Rating Prompt.txt`)
+
+When a conversation occurs, the system may identify potentially useful information to remember. The goal is to extract memories that are:
+
+- **Specific and Actionable:** The memory must provide clear guidance that can be acted upon in future interactions.
+- **General and Reusable:** It should not be tied _only_ to the specific files or code snippets from the current conversation.
+- **User-Driven:** The memory should originate from the user's input, especially strong preferences, corrections, or frustrations.
+
+### What to Remember (Positive Criteria)
+
+- High-level preferences about workflow (e.g., "Write tests before implementing new features").
+- Specific technical preferences (e.g., "Use async/await over promise chaining").
+- Common pain points or frustrations to avoid.
+- Explicit requests from the user to remember something.
+
+### What NOT to Remember (Negative Criteria)
+
+- One-time, task-specific details (e.g., "The `calculateTotal` function needs refactoring").
+- Implementation specifics that won't be reused (e.g., "Use `userData` for the API result").
+- Vague or obvious preferences (e.g., "User likes well-organized code").
+- Basic software engineering principles (e.g., DRY, SOLID).
+- Context that comes purely from the assistant's chat, not the user's.
+
+### Formatting
+
+- The memory is given a descriptive, hyphenated label (e.g., `function-size-preference`).
+- The final output is a JSON object containing an `explanation` and the `memory` string.
+- If no memory is needed, the system returns `"no_memory_needed"`.
+
+## Memory Evaluation (`Memory Prompt.txt`)
+
+Once a potential memory is captured, it is evaluated by another AI assistant, which acts as a "judge." This judge assigns a score from 1 to 5 based on the memory's quality and relevance.
+
+### Scoring Rubric
+
+- **Score 1 (Do Not Remember):**
+  - Tied to specific code from the conversation.
+  - A one-off implementation detail.
+  - A specific, non-general task detail.
+  - Must be assigned if the suggestion is `no_memory_needed`.
+- **Score 2-3 (Vague/Obvious/Neutral):**
+  - The memory is too vague or obvious to be actionable (e.g., "Testing is important").
+  - It describes a common or obvious principle (e.g., "Separation of concerns").
+  - A score of 3 is used for borderline cases or when the judge is uncertain.
+- **Score 4-5 (Should Remember):**
+  - The memory is a clear, specific, and actionable preference or rule.
+  - Represents a clear technology choice or workflow preference (e.g., "Prefer Svelte for new UI work").
+  - A score of 5 is required if the user explicitly asked to remember something.
+
+### Guiding Principle
+
+The system is designed to **err on the side of rating things poorly.** The user gets "EXTREMELY annoyed" when memories are graded too highly. Vague or obvious memories are the most likely to be rated incorrectly and should be scored low.

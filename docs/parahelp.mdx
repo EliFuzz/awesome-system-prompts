@@ -1,0 +1,22 @@
+---
+title: parahelp
+description: parahelp Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-07-23 prompt planning" label="2025-07-23 prompt planning" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/parahelp/2025-07-23_prompt_planning.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 prompt manager" label="2025-07-23 prompt manager" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/parahelp/2025-07-23_prompt_manager.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

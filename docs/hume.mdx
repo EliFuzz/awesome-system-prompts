@@ -1,0 +1,26 @@
+---
+title: hume
+description: hume Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2024-05-05 prompt" label="2024-05-05 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/hume/2024-05-05_prompt.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+    <TabItem value="archived" label="archived">
+      <Tabs queryString="secondary">
+        <TabItem value="2024-04-05 prompt-archived" label="2024-04-05 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/hume/archived/2024-04-05_prompt.txt').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

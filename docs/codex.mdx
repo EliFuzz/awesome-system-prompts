@@ -1,0 +1,35 @@
+---
+title: codex
+description: codex Prompt
+hide_table_of_contents: true
+---
+
+import CodeBlock from "@theme/CodeBlock";
+import TabItem from "@theme/TabItem";
+import Tabs from "@theme/Tabs";
+
+<Tabs queryString="primary">
+    <TabItem value="latest" label="latest">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-09-20 prompt" label="2025-09-20 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/codex/2025-09-20_prompt.md').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+    <TabItem value="archived" label="archived">
+      <Tabs queryString="secondary">
+        <TabItem value="2025-09-15 prompt-archived" label="2025-09-15 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/codex/archived/2025-09-15_prompt.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-09-15 prompt system-archived" label="2025-09-15 prompt system" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/codex/archived/2025-09-15_prompt_system.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-09-01 prompt-archived" label="2025-09-01 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/codex/archived/2025-09-01_prompt.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-08-01 prompt-archived" label="2025-08-01 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/codex/archived/2025-08-01_prompt.md').default}</CodeBlock>
+        </TabItem>
+      </Tabs>
+    </TabItem>
+</Tabs>

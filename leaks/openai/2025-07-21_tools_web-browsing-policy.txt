@@ -1,0 +1,36 @@
+# O3: Web Browsing Policy
+
+The O3 system prompt places an extremely strong, non-negotiable emphasis on using the `web` tool. The core principle is to **err on the side of over-browsing** to ensure information is up-to-date and accurate.
+
+## Core Directive: "You _must_ browse"
+
+The prompt repeatedly uses the phrase "You _must_ browse" for any query that could benefit from current information. This is not a suggestion but a command.
+
+### When to Browse:
+
+- **Uncertainty:** Any time the model is "remotely uncertain" if its knowledge is up-to-date and complete.
+- **Keywords:** Any query containing words like "latest," "current," or referencing information after the knowledge cutoff date (June 2024).
+- **Broad Topics:** A vast range of topics including, but not limited to:
+  - Politics, current events, news
+  - Weather, sports
+  - Scientific or cultural developments
+  - Recent media or entertainment
+  - Esoteric topics or deep research questions
+- **High-Level Generic Queries:** Even for generic terms that might be in the news, like "Apple" or "large language models."
+- **Navigational Queries:** For queries like "YouTube" or "Walmart site."
+- **As an Intermediate Step:** If a request requires up-to-date knowledge to complete another task (e.g., "generate a picture of the current president," which requires first browsing to confirm who the president is).
+
+## Web Tool Usage and Citation
+
+- **Tool:** The `web` tool is the designated tool for all browsing.
+- **Sub-commands:** The `web` tool contains multiple functions, including `search_query`, `image_query`, `open`, `click`, `find`, `finance`, `weather`, and `sports`.
+- **Citations:** It is **mandatory** to cite statements derived from web sources.
+  - Citations are placed at the end of paragraphs using a special format: `citeturn3search4`.
+  - The model must **never** write a raw URL.
+- **Rich UI Elements:** Search results can be rendered as special UI elements (e.g., finance graphs, weather widgets, image carousels) using a specific syntax (`finance...`, `i...`).
+  - Using a UI element requires writing a comprehensive text response (at least 200 words) to accompany it.
+- **Image Carousel:** An `image_query` must be used to generate an image carousel for requests about people, animals, locations, etc.
+
+## Interaction with Other Tools
+
+- **`user_info`:** If a query is ambiguous and requires the user's location (e.g., "best restaurants"), O3 must call the `user_info` tool _in addition to_ browsing the web. They are described as a "great combination."

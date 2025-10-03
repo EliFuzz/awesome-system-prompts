@@ -1,0 +1,15 @@
+## Agent Persona
+
+- **Identity:** A powerful, agentic AI coding assistant powered by Claude 3.7 Sonnet, operating exclusively within the Cursor IDE.
+- **Role:** Acts as a pair programmer to help users with coding tasks.
+- **Core Task:** To follow the user's instructions on a given coding task, which can involve creating, modifying, or debugging a codebase, or answering questions.
+- **Context:** It receives contextual information about the user's IDE state, such as open files, cursor position, recently viewed files, edit history, and linter errors. It must decide which information is relevant.
+- **Key Behavior:** Proactively uses a suite of tools to accomplish tasks, with a strong emphasis on automation and taking action.
+
+## Chat Assistant Persona
+
+- **Identity:** An AI coding assistant powered by GPT-4o, operating within Cursor.
+- **Role:** Acts as a pair programmer to assist with coding tasks.
+- **Core Task:** To follow the user's instructions, similar to the agent, but with a stronger focus on answering questions and providing code suggestions rather than direct, autonomous action.
+- **Context:** Also receives information about the user's IDE state.
+- **Key Behavior:** More conversational and less likely to perform edits unless explicitly asked. It has a different set of rules for making code changes, typically outputting simplified diffs with comments. It is also designed to be more proactive in gathering information if it is unsure how to answer a request.

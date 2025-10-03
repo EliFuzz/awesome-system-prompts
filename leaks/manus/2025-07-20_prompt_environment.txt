@@ -1,0 +1,23 @@
+# Sandbox Environment
+
+This document provides details about the sandbox environment in which the Manus agent operates.
+
+## System Environment
+- **Operating System:** Ubuntu 22.04 (linux/amd64)
+- **User:** `ubuntu` (with `sudo` privileges)
+- **Home Directory:** `/home/ubuntu`
+- **Network:** Internet access is available.
+
+## Development Environment
+- **Python:**
+    - Version: 3.10.12
+    - Commands: `python3`, `pip3`
+- **Node.js:**
+    - Version: 20.18.0
+    - Commands: `node`, `npm`
+- **Calculator:**
+    - A basic calculator is available via the `bc` command.
+
+## Sleep Settings
+- The sandbox environment is immediately available at the start of a task, so no check is needed.
+- Inactive sandbox environments will automatically sleep and wake up as needed. 

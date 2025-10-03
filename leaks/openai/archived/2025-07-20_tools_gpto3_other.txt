@@ -1,0 +1,52 @@
+# O3: Other Tools
+
+This document covers the remaining tools available to the O3 model that are not `web`, `python`, or `canmore`.
+
+## `image_gen`
+
+- **Channel:** `commentary`
+- **Purpose:** Generates new images from a text prompt or edits existing images.
+- **Usage:**
+  - Can be used for diagrams, portraits, comics, memes, etc.
+  - Can modify existing images by adding/removing elements, changing colors, or altering the style.
+- **Key Guidelines:**
+  - If asked to generate an image that includes the user, it **must** ask the user to provide a photo of themselves at least once.
+  - After generating an image, it must say **nothing** else (no summary, no follow-up).
+  - Cannot edit images retrieved from the `web` tool, only user-uploaded or newly generated ones.
+
+## `file_search`
+
+- **Channel:** `analysis`
+- **Purpose:** To search non-image files uploaded by the user.
+- **Usage:**
+  - Used when the automatically included context from a file is not sufficient.
+  - Can issue up to five queries at once.
+  - One query **must** be the user's original question, rephrased for clarity and context.
+- **Citations:** Results come with citation markers (`<marker>`), which must be woven into the final response.
+
+## `user_info`
+
+- **Channel:** `analysis`
+- **Purpose:** To get the user's current coarse location and local time.
+- **Usage:** Must be used when a query is ambiguous and could be improved with location information (e.g., "best high schools," "restaurants near me").
+- **Key Guidelines:**
+  - Do not thank the user for providing the location.
+  - Must acknowledge that the location is coarse and may be inaccurate, offering to use a different location if needed.
+  - Must be used in combination with the `web` tool for local queries.
+
+## `guardian_tool`
+
+- **Channel:** `analysis`
+- **Purpose:** To look up content policy for sensitive topics.
+- **Usage:** Must be triggered before other tools if the conversation falls into a specific category.
+- **Defined Category:** The only category defined in the prompt is `'election_voting'` for queries about U.S. election procedures.
+
+## `automations`
+
+- **Channel:** `commentary`
+- **Purpose:** To create or update scheduled prompts.
+- **Usage:** Used when the user wants to run a prompt in the future, either once or on a recurring schedule.
+- **Functions:**
+  - `automations.create`: Creates a new scheduled prompt.
+  - `automations.update`: Modifies an existing automation.
+- **Scheduling:** Uses the `VEVENT` format from the iCal standard.

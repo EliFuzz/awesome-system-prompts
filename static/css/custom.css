@@ -1,0 +1,47 @@
+/* Scrollable Tabs */
+.tabs .tabs__item {
+  white-space: nowrap;
+}
+
+/*
+Vertical tabs
+*/
+.tabs-container:has(> ul > li.tabs__vertical) {
+  display: flex;
+}
+
+.tabs-container:has(> ul > li.tabs__vertical) > ul {
+  flex-shrink: 0;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+.tabs-container:has(> ul > li.tabs__vertical) > ul + .margin-top--md {
+  width: 100%;
+}
+
+.tabs-container:has(> ul > li.tabs__vertical) > ul > li {
+  border-bottom: 0;
+  border-top: 0;
+  border-top-right-radius: 0;
+}
+
+.tabs-container:has(> ul > li.tabs__vertical) > ul > li.tabs__item--active {
+  border-right: 2px solid transparent;
+  border-right-color: var(--ifm-color-primary);
+}
+
+.tabs:has(> .code_lang) {
+  margin-top: 1em;
+}
+
+.tabs:has(> .code_lang) > li {
+  margin-right: 1em;
+}
+
+/* Wrap code blocks */
+
+pre > code {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}

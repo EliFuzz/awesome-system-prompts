@@ -1,0 +1,36 @@
+# O3: Python Tools (`python` vs. `python_user_visible`)
+
+The O3 prompt provides two distinct Python execution tools and enforces a strict separation between them based on visibility to the user. This is a critical rule for the model.
+
+## `python`: For Private Analysis
+
+This tool is for the model's internal, private use.
+
+- **Channel:** Must **only** be called in the `analysis` channel.
+- **Purpose:**
+  - Execute Python code for the model's chain of thought.
+  - Analyze input images, files, or content from the web.
+  - Perform calculations or data transformations that the user does not need to see.
+- **Visibility:** The code and its output are **not** visible to the user.
+- **Use Case Example:** Analyzing an uploaded image to compute statistics, rotating it, or isolating features to better understand its contents before formulating a response.
+
+## `python_user_visible`: For User-Facing Output
+
+This tool is for generating code-based outputs that the user is meant to see.
+
+- **Channel:** Must **only** be called in the `commentary` channel.
+- **Purpose:**
+  - Generate plots and charts.
+  - Display tables, spreadsheets, or pandas DataFrames.
+  - Output user-visible files.
+- **Visibility:** The code and its output (e.g., a chart, a table) are visible to the user.
+- **Specific Guidelines:**
+  - **DataFrames:** Use `ace_tools.display_dataframe_to_user()` to show interactive tables.
+  - **Charting Rules:**
+    1. **Never** use the `seaborn` library. Use `matplotlib`.
+    2. Each chart must be in its own distinct plot (no subplots).
+    3. **Never** set specific colors or styles unless the user explicitly asks for them.
+
+## The Core Rule
+
+The prompt summarizes the distinction forcefully: "**python is for private thinking in analysis; python_user_visible is to present to the user in commentary. No exceptions!**"

@@ -1,0 +1,23 @@
+# Fetch Tool
+
+## Description
+
+Fetches a URL and returns the content as Markdown.
+
+## Input Schema
+
+```json
+{
+  "required": [
+    "url"
+  ],
+  "properties": {
+    "url": {
+      "description": "The URL to fetch.",
+      "type": "string"
+    }
+  },
+  "type": "object",
+  "additionalProperties": false
+}
+```
