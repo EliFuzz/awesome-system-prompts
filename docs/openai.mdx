@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-10-07 chat-kit" label="2025-10-07 chat-kit" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/openai/2025-10-07_chat-kit.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-08-29 prompt gpt5" label="2025-08-29 prompt gpt5" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/openai/2025-08-29_prompt_gpt5.md').default}</CodeBlock>
         </TabItem>

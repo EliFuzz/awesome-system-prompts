@@ -169,6 +169,7 @@
 
 ### [Codex](https://openai.com/blog/openai-codex)
 
+- [ChatKit 2025-10-07](leaks/openai/2025-10-07_chat-kit.md)
 - [Prompt 2025-09-20](leaks/codex/prompt-2025-09-20.md)
 - [Prompt 2025-09-20](leaks/codex/prompt-2025-09-20.md)
 - [Prompt System 2025-09-20](leaks/codex/prompt-2025-09-20.md)
