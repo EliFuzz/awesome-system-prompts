@@ -102,6 +102,8 @@
 
 ### [Anthropic: Claude Code](https://www.anthropic.com/claude-code)
 
+- [Output Style Explanatory](leaks/claude-code/2025-10-09_prompt_output-style-explanatory.md)
+- [Output Style Learning](leaks/claude-code/2025-10-09_prompt_output-style-learning.md)
 - [Agent Tool](leaks/claude-code/archived/2025-07-20_tools_agent.js)
 - [Batch Execution Tool](leaks/claude-code/archived/2025-07-20_tools_batch-execution.js)
 - [Bug Report Tool](leaks/claude-code/archived/2025-07-20_tools_bug-report.js)
