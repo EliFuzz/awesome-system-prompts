@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-10-13 prompt sonnet45" label="2025-10-13 prompt sonnet45" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2025-10-13_prompt_sonnet45.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-09-29 prompt suite-xlsx" label="2025-09-29 prompt suite-xlsx" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2025-09-29_prompt_suite-xlsx.md').default}</CodeBlock>
         </TabItem>

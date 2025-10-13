@@ -68,6 +68,7 @@
 
 ### [Anthropic](https://claude.ai)
 
+- [Sonnet 4.5 (2025-10-13)](leaks/anthropic/2025-10-13_prompt_sonnet45.md)
 - [API Tools 2025-01-19](leaks/anthropic/archived/2025-01-19_prompt_api-tools.md)
 - [Artifacts 2024-06-20](leaks/anthropic/archived/2024-06-20_tools_artifacts.md)
 - [Available Tools](leaks/anthropic/archived/2025-07-25_tools.md)
