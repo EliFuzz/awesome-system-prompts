@@ -222,6 +222,11 @@
 - [Prompt 2025-08-09](leaks/devin/2025-08-09_prompt_system.md)
 - [Reasoning Reflection](leaks/devin/2025-07-21_prompt_reasoning-reflection.txt)
 
+### [Emergent](https://app.emergent.sh)
+
+- [Prompt](leaks/emergent/2025-10-15_prompt.md)
+- [Tools](leaks/emergent/2025-10-15_tools.json)
+
 ### [Discord](https://discord.com)
 
 - [Clyde (2024-07-16)](leaks/discord/2024-07-16_prompt.txt)
@@ -235,6 +240,7 @@
 
 ### [Google Gemini](https://ai.google/gemini)
 
+- [Gemini 2.5 Pro Guided Learning 2025-10-15](leaks/gemini/2025-10-15_prompt_gemini25pro_guided-learning.md)
 - [Gemini 2.5 Pro Webapp 2025-07-21](leaks/gemini/2025-07-21_prompt_gemini25pro_webapp.txt)
 - [Gemini Diffusion 2025-07-21](leaks/gemini/2025-07-21_gemini-diffusion.txt)
 - [Google Gemini 1.5 (2024-04-11)](leaks/gemini/archived/2024-04-11_prompt_gemini15.txt)

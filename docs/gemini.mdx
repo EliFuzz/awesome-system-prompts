@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-10-15 prompt gemini25pro guided-learning" label="2025-10-15 prompt gemini25pro guided-learning" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-10-15_prompt_gemini25pro_guided-learning.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-08-29 prompt gemini25flash image-preview" label="2025-08-29 prompt gemini25flash image-preview" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-08-29_prompt_gemini25flash_image-preview.md').default}</CodeBlock>
         </TabItem>

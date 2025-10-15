@@ -1,0 +1,306 @@
+{
+  "tools": [
+    {
+      "name": "mcp_bulk_file_writer",
+      "description": "Write multiple files simultaneously for improved performance",
+      "parameters": {
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "description": "Absolute path to the file"
+              },
+              "content": {
+                "type": "string",
+                "description": "Raw text content for the file"
+              }
+            },
+            "required": ["path", "content"]
+          }
+        },
+        "capture_logs_backend": { "type": "boolean", "default": false },
+        "capture_logs_frontend": { "type": "boolean", "default": false },
+        "status": { "type": "boolean", "default": false }
+      }
+    },
+    {
+      "name": "emergent_integrations_manager",
+      "description": "Get the Emergent LLM key for llm integration (openai, anthropic, google)",
+      "parameters": {}
+    },
+    {
+      "name": "extract_file_tool",
+      "description": "Extract specific structured data from document files",
+      "SupportedFormats": ".txt, .js, .py, .html, .css, .json, .xml, .csv, .md, .pdf, .docx, .xlsx, .pptx, .png, .jpg, .jpeg, .webp, .heic, .heif, .wav, .mp3, .mpeg, .aiff, .aac, .ogg, .flac, .mov, .mpeg, .mp4, .mpg, .avi, .wmv, .mpegps, .flv",
+      "parameters": {
+        "source": {
+          "type": "string",
+          "description": "Direct URL or local file path"
+        },
+        "prompt": {
+          "type": "string",
+          "description": "What specific data to extract"
+        },
+        "headers": {
+          "type": "object",
+          "description": "Additional HTTP headers (optional)"
+        },
+        "timeout": { "type": "integer", "default": 30 }
+      }
+    },
+    {
+      "name": "ask_human",
+      "description": "Ask human user for clarification, additional info, confirmation, or feedback",
+      "SupportedFormats": ".txt, .js, .py, .html, .css, .json, .xml, .csv, .md, .pdf, .docx, .xlsx, .pptx, .png, .jpg, .jpeg, .webp, .heic, .heif, .wav, .mp3, .mpeg, .aiff, .aac, .ogg, .flac, .mov, .mpeg, .mp4, .mpg, .avi, .wmv, .mpegps, .flv",
+      "parameters": {
+        "source": { "type": "string" },
+        "analysis_type": {
+          "type": "string",
+          "enum": [
+            "general",
+            "structure",
+            "content",
+            "sentiment",
+            "security",
+            "performance",
+            "compliance",
+            "custom"
+          ]
+        },
+        "query": {
+          "type": "string",
+          "description": "Specific analysis question (optional)"
+        },
+        "headers": { "type": "object" },
+        "timeout": { "type": "integer", "default": 30 }
+      }
+    },
+    {
+      "name": "mcp_glob_files",
+      "description": "Fast file pattern matching with glob patterns",
+      "parameters": {
+        "pattern": {
+          "type": "string",
+          "description": "The glob pattern to match files against"
+        },
+        "path": {
+          "type": "string",
+          "description": "Directory to search in (optional)"
+        }
+      }
+    },
+    {
+      "name": "execute_bash",
+      "description": "Execute a bash command in the terminal",
+      "parameters": {
+        "command": {
+          "type": "string",
+          "description": "The bash command to execute"
+        }
+      }
+    },
+    {
+      "name": "grep_tool",
+      "description": "Search file contents using ripgrep with regex patterns",
+      "parameters": {
+        "pattern": {
+          "type": "string",
+          "description": "The regex pattern to search for"
+        },
+        "path": {
+          "type": "string",
+          "description": "Directory or file to search in"
+        },
+        "case_sensitive": { "type": "boolean" },
+        "context_lines": { "type": "integer" },
+        "include": {
+          "type": "string",
+          "description": "File patterns to include"
+        }
+      }
+    },
+    {
+      "name": "mcp_view_file",
+      "description": "View file or directory contents",
+      "parameters": {
+        "path": {
+          "type": "string",
+          "description": "The absolute path to the file to view"
+        },
+        "view_range": {
+          "type": "array",
+          "items": { "type": "integer" },
+          "description": "Optional line range [start, end]"
+        }
+      }
+    },
+    {
+      "name": "mcp_search_replace",
+      "description": "Search and replace exact string in file",
+      "parameters": {
+        "path": { "type": "string" },
+        "old_str": {
+          "type": "string",
+          "description": "Exact string to replace - must match EXACTLY"
+        },
+        "new_str": { "type": "string", "description": "Replacement string" },
+        "replace_all": { "type": "boolean", "default": false },
+        "run_lint": { "type": "boolean", "default": false },
+        "status": { "type": "boolean", "default": false }
+      }
+    },
+    {
+      "name": "mcp_lint_python",
+      "description": "Python linting using ruff",
+      "parameters": {
+        "path_pattern": {
+          "type": "string",
+          "description": "File/directory path or glob pattern"
+        },
+        "fix": { "type": "boolean", "default": false },
+        "exclude_patterns": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    {
+      "name": "mcp_lint_javascript",
+      "description": "JavaScript/TypeScript linting using ESLint",
+      "parameters": {
+        "path_pattern": { "type": "string" },
+        "fix": { "type": "boolean", "default": false },
+        "exclude_patterns": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    {
+      "name": "mcp_create_file",
+      "description": "Create a new file with specified content",
+      "parameters": {
+        "path": {
+          "type": "string",
+          "description": "The absolute path for the new file"
+        },
+        "file_text": {
+          "type": "string",
+          "description": "Content for the new file"
+        },
+        "run_lint": { "type": "boolean", "default": false }
+      }
+    },
+    {
+      "name": "mcp_insert_text",
+      "description": "Insert text at a specific line number in a file",
+      "parameters": {
+        "path": { "type": "string" },
+        "new_str": { "type": "string" },
+        "insert_line": { "type": "integer", "minimum": 0 },
+        "run_lint": { "type": "boolean", "default": false }
+      }
+    },
+    {
+      "name": "finish",
+      "description": "Provide concise summary for clarity and handoff",
+      "parameters": {
+        "summary": {
+          "type": "string",
+          "description": "Provide summary based on given inputs and examples"
+        }
+      }
+    },
+    {
+      "name": "get_assets_tool",
+      "description": "Retrieve attached assets from the database for the current job/run",
+      "parameters": {}
+    },
+    {
+      "name": "screenshot_tool",
+      "description": "Execute screenshot commands using Playwright",
+      "parameters": {
+        "page_url": { "type": "string" },
+        "script": {
+          "type": "string",
+          "description": "Complete Python Playwright script"
+        },
+        "capture_logs": { "type": "boolean", "default": false }
+      }
+    },
+    {
+      "name": "mcp_view_bulk",
+      "description": "View multiple files or directories in sequence",
+      "parameters": {
+        "paths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "maxItems": 20
+        }
+      }
+    },
+    {
+      "name": "web_search_tool_v2",
+      "description": "Search the web for current information, recent events, or topics",
+      "parameters": {
+        "query": { "type": "string" },
+        "search_context_size": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        }
+      }
+    },
+    {
+      "name": "think",
+      "description": "Think about something - append thought to log",
+      "parameters": { "thought": { "type": "string" } }
+    },
+    {
+      "name": "crawl_tool",
+      "description": "Scrape, crawl, retrieve, fetch or extract complete content from webpages",
+      "parameters": {
+        "url": { "type": "string" },
+        "extraction_method": { "type": "string", "enum": ["scrape"] },
+        "formats": {
+          "type": "string",
+          "enum": ["html", "markdown", "json"],
+          "default": "markdown"
+        },
+        "question": { "type": "string", "default": "text" }
+      }
+    },
+    {
+      "name": "vision_expert_agent",
+      "description": "AI-powered assistant for selecting and returning relevant image URLs",
+      "parameters": {
+        "task": {
+          "type": "string",
+          "description": "Detailed task for the skilled agent to perform"
+        }
+      }
+    },
+    {
+      "name": "auto_frontend_testing_agent",
+      "description": "Expert agent for UI testing using playwright and browser automation",
+      "parameters": { "task": { "type": "string" } }
+    },
+    {
+      "name": "deep_testing_backend_v2",
+      "description": "Expert agent for testing backend using curl and UI using playwright",
+      "parameters": { "task": { "type": "string" } }
+    },
+    {
+      "name": "integration_playbook_expert_v2",
+      "description": "Creates comprehensive playbooks for integrating third-party APIs and services",
+      "parameters": { "task": { "type": "string" } }
+    },
+    {
+      "name": "support_agent",
+      "description": "Help with any answers about the Emergent platform",
+      "parameters": { "task": { "type": "string" } }
+    },
+    {
+      "name": "deployment_agent",
+      "description": "Expert agent to debug native deployment issues on Emergent",
+      "parameters": { "task": { "type": "string" } }
+    }
+  ]
+}
