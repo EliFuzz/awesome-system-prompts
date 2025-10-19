@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-10-17 tools sonnet45" label="2025-10-17 tools sonnet45" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-10-17_tools_sonnet45.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-10-09 prompt output-style-learning" label="2025-10-09 prompt output-style-learning" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-10-09_prompt_output-style-learning.md').default}</CodeBlock>
         </TabItem>
@@ -20,66 +23,66 @@ import Tabs from "@theme/Tabs";
         <TabItem value="2025-09-29 prompt" label="2025-09-29 prompt" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-09-29_prompt.md').default}</CodeBlock>
         </TabItem>
-        <TabItem value="2025-07-23 tools write" label="2025-07-23 tools write" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_write.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools web-search" label="2025-07-23 tools web-search" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_web-search.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools web-fetch" label="2025-07-23 tools web-fetch" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_web-fetch.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools todo-write" label="2025-07-23 tools todo-write" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_todo-write.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools todo-read" label="2025-07-23 tools todo-read" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_todo-read.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools task" label="2025-07-23 tools task" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_task.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools read" label="2025-07-23 tools read" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_read.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools read-notebook" label="2025-07-23 tools read-notebook" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="javascript">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_read-notebook.js').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools notebook-read" label="2025-07-23 tools notebook-read" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_notebook-read.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools notebook-edit" label="2025-07-23 tools notebook-edit" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_notebook-edit.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools multi-edit" label="2025-07-23 tools multi-edit" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_multi-edit.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools ls" label="2025-07-23 tools ls" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_ls.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools grep" label="2025-07-23 tools grep" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_grep.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools glob" label="2025-07-23 tools glob" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_glob.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools exit-plan-mode" label="2025-07-23 tools exit-plan-mode" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_exit-plan-mode.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools edit" label="2025-07-23 tools edit" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_edit.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools claude-code" label="2025-07-23 tools claude-code" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="json">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_claude-code.json').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools bash" label="2025-07-23 tools bash" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/2025-07-23_tools_bash.txt').default}</CodeBlock>
-        </TabItem>
       </Tabs>
     </TabItem>
     <TabItem value="archived" label="archived">
       <Tabs queryString="secondary">
         <TabItem value="2025-09-01 prompt-archived" label="2025-09-01 prompt" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/archived/2025-09-01_prompt.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools write-archived" label="2025-07-23 tools write" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_write.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools web-search-archived" label="2025-07-23 tools web-search" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_web-search.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools web-fetch-archived" label="2025-07-23 tools web-fetch" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_web-fetch.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools todo-write-archived" label="2025-07-23 tools todo-write" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_todo-write.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools todo-read-archived" label="2025-07-23 tools todo-read" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_todo-read.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools task-archived" label="2025-07-23 tools task" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_task.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools read-archived" label="2025-07-23 tools read" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_read.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools read-notebook-archived" label="2025-07-23 tools read-notebook" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="javascript">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_read-notebook.js').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools notebook-read-archived" label="2025-07-23 tools notebook-read" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_notebook-read.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools notebook-edit-archived" label="2025-07-23 tools notebook-edit" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_notebook-edit.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools multi-edit-archived" label="2025-07-23 tools multi-edit" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_multi-edit.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools ls-archived" label="2025-07-23 tools ls" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_ls.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools grep-archived" label="2025-07-23 tools grep" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_grep.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools glob-archived" label="2025-07-23 tools glob" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_glob.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools exit-plan-mode-archived" label="2025-07-23 tools exit-plan-mode" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_exit-plan-mode.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools edit-archived" label="2025-07-23 tools edit" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_edit.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools claude-code-archived" label="2025-07-23 tools claude-code" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_claude-code.json').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools bash-archived" label="2025-07-23 tools bash" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_tools_bash.txt').default}</CodeBlock>
         </TabItem>
         <TabItem value="2025-07-23 prompt system-archived" label="2025-07-23 prompt system" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="javascript">{require('!!raw-loader!../leaks/claude-code/archived/2025-07-23_prompt_system.js').default}</CodeBlock>
