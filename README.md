@@ -342,6 +342,10 @@
 - [Response Structure](leaks/lovable/2025-07-26_response-structure.txt)
 - [Special Instructions](leaks/lovable/2025-07-26_special-instructions.txt)
 
+### [Lumo](https://lumo.proton.me)
+
+- [Prompt 2025-10-19](leaks/lumo/2025-10-19_prompt.md)
+
 ### [Manus](https://www.manus.io)
 
 - [Agent Loop](leaks/manus/2025-07-20_prompt_agent-loop.txt)
@@ -386,6 +390,7 @@
 
 ### [OpenAI](https://openai.com)
 
+- [Prompt Atlas 2025-10-21](leaks/openai/2025-10-21_prompt_atlas.md)
 - [Prompt GPT-4o 2025-09-27](leaks/openai/archived/2025-09-27_prompt_gpt4o.md)
 - [Advanced Voice Mode 2025-05-07](leaks/openai/archived/2025-05-07_advanced-voice-mode.txt)
 - [Agent Mode GPT-5 2025-08-29](leaks/openai/2025-08-29_prompt_gpt5.md)
