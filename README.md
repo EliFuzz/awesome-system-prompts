@@ -4,6 +4,8 @@
 
 ### [Aider](https://www.aider.ai): AI-powered coding assistant that helps developers modify codebases efficiently through natural language prompts and context-aware code changes
 
+#### Latest
+
 - [Architect Mode](leaks/aider/2025-07-07_prompt_architect-mode.md): outlining how an AI acts as an expert architect engineer to provide clear, concise, and change-focused instructions to an "editor engineer" for modifying code within a git repository
 - [Ask Mode](leaks/aider/2025-07-06_prompt_ask-mode.md): as an expert code analyst AI, detailing its read-only nature for code analysis and question answering, its emphasis on brief responses, and its capability to request additional files for analysis.
 - [File Mode](leaks/aider/2025-07-06_prompt_file-mode.md): "file listing" format for an AI assistant, which involves returning the entire content of a file (either existing or new) within a specific fenced code block structure to propose code changes.
@@ -13,14 +15,20 @@
 
 ### [Alan](https://alan.estsoft.ai/): AI assistant developed by ESTsoft that provides advanced conversational and productivity features for users and businesses
 
+#### Latest
+
 - [Prompt](leaks/alan/2023-09-20_prompt.md): outlines the detailed rules and limitations for "Alan Assistant" (also known as "Gepeto"), covering its response characteristics, information gathering capabilities, output formatting, and content generation restrictions.
 
 ### [Amp](https://ampcode.com)
+
+#### Latest
 
 - [Prompt Claude 4 Sonnet 2025-09-21](leaks/amp/2025-09-21_prompt_sonnet4.yml)
 - [Prompt GPT-5 2025-09-21](leaks/amp/2025-09-21_prompt_gpt5.yml)
 
 ### [Augment Code](https://www.augmentcode.com): AI-powered coding assistant platform that leverages advanced agentic models and tool integrations to help developers efficiently analyze, edit, and manage codebases
+
+#### Latest
 
 - [Agent GPT-5](leaks/augment/2025-08-18_prompt_gpt5_agent.md): outlines the role, identity, output formatting, preliminary tasks, information-gathering tools, planning and task management, editing guidelines, package management, instruction following, testing, execution and validation, code display, communication, recovery from difficulties, cost balancing, final workflow, and success criteria for the Augment Agent, an agentic coding AI assistant based on GPT 5.
 - [Agent Sonnet 4](leaks/augment/2025-08-18_prompt_sonnet4_agent.md): outlines the role, identity, preliminary tasks, planning and task management guidelines, editing instructions, package management rules, and general instructions for Augment Agent, an AI assistant based on Claude Sonnet 4.
@@ -29,6 +37,8 @@
 - [Tools](leaks/augment/2025-08-18_tools_gpt5.json): describes a set of tools and various prompt templates for an Augment AI coding assistant.
 
 ### [Blackbox.AI](https://www.blackbox.ai)
+
+#### Latest
 
 - [Template 1](leaks/blackbox/2025-07-29_prompt_agent-template-1.md)
 - [Template 2](leaks/blackbox/2025-07-29_prompt_agent-template-2.md)
@@ -54,19 +64,31 @@
 
 ### [Bolt](https://bolt.new)
 
+#### Latest
+
 - [Prompt 2024-10-09](leaks/bolt/2024-10-09_prompt.md)
 - [Prompt 2024-10-09](leaks/bolt/2024-10-09_prompt.md)
 
 ### [Brave Leo](https://brave.com/leo/)
+
+#### Latest
 
 - [Prompt 2025-09-01](leaks/brave/2025-09-01_prompt.md)
 - [Prompt 2025-09-01](leaks/brave/2025-09-01_prompt.md)
 
 ### [Canva](https://www.canva.com)
 
+#### Latest
+
 - [2025-05-19](leaks/canva/2025-05-19_prompt.md)
 
 ### [Anthropic](https://claude.ai)
+
+#### Latest
+
+- [Prompt 2025-11-01](leaks/anthropic/2025-11-01_prompt_memory.md)
+
+#### Archived
 
 - [Sonnet 4.5 (2025-10-13)](leaks/anthropic/2025-10-13_prompt_sonnet45.md)
 - [API Tools 2025-01-19](leaks/anthropic/archived/2025-01-19_prompt_api-tools.md)
@@ -103,7 +125,14 @@
 
 ### [Anthropic: Claude Code](https://www.anthropic.com/claude-code)
 
-- [Sonnet 4.5 Tools](leaks/claude-code/2025-10-17_tools_sonnet45.md)
+#### Latest
+
+- [2025-10-07 Tools Sonnet 4.5](leaks/claude-code/2025-10-17_tools_sonnet45.md)
+- [2025-11-01 Prompt Plan Mode Sonnet 4.5](leaks/claude-code/2025-11-01_prompt_plan-mode_sonnet45.md)
+- [2025-11-01 Prompt Sonnet 4.5](leaks/claude-code/2025-11-01_prompt_sonnet45.md)
+
+#### Archived
+
 - [Output Style Explanatory](leaks/claude-code/2025-10-09_prompt_output-style-explanatory.md)
 - [Output Style Learning](leaks/claude-code/2025-10-09_prompt_output-style-learning.md)
 - [Claude Code](leaks/claude-code/archived/2025-07-23_prompt_system.js)
@@ -140,6 +169,8 @@
 
 ### [Cline](https://docs.cline.bot)
 
+#### Latest
+
 - [Prompt](leaks/cline/2025-07-20_prompt.txt)
 - [System](leaks/cline/2025-07-20_prompt_system.ts)
 - [Access MCP Resource Tool](leaks/cline/2025-07-23_tools_access-mcp-resource.txt)
@@ -161,6 +192,8 @@
 
 ### [Cluely](https://cluely.com)
 
+#### Latest
+
 - [Default 2025-07-20](leaks/cluely/2025-07-20_prompt_default.txt)
 - [Enterprise 2025-07-20](leaks/cluely/2025-07-20_prompt_enterprise.txt)
 - [Prompt 2025-05-12](leaks/cluely/archived/2025-05-12_prompt.txt)
@@ -168,10 +201,14 @@
 
 ### [CodeBuddy](https://www.codebuddy.ai)
 
+#### Latest
+
 - [Prompt Chat 2025-08-23](leaks/codebuddy/2025_08-23_prompt_chat.md)
 - [Prompt Craft 2025-08-23](leaks/codebuddy/2025_08-23_prompt_craft.md)
 
 ### [Codex](https://openai.com/blog/openai-codex)
+
+#### Latest
 
 - [ChatKit 2025-10-07](leaks/openai/2025-10-07_chat-kit.md)
 - [Prompt 2025-09-20](leaks/codex/prompt-2025-09-20.md)
@@ -182,14 +219,24 @@
 
 ### [Google Colab](https://colab.google)
 
+#### Latest
+
 - [Colab 2024-01-08](leaks/colab/archived/2024-01-08_prompt.txt)
 - [Colab 2024-05-11](leaks/colab/2024-05-11_prompt.txt)
 
 ### [Cue](https://cueai.app)
 
+#### Latest
+
 - [Cue 2023-09-20](leaks/cue/2023-09-20_prompt.txt)
 
 ### [Cursor](https://www.cursor.com)
+
+#### Latest
+
+- [2025-11-01 Prompt](leaks/cursor/2025-11-01_prompt.md)
+
+#### Archived
 
 - [Prompt 2025-10-29](leaks/cursor/2025-10-29_prompt.md)
 - [Agent CLI (2025-08-07)](leaks/cursor/archived/2025-08-07_prompt_gpt5.md)
@@ -212,9 +259,13 @@
 
 ### [Databricks](https://www.databricks.com)
 
+#### Latest
+
 - [Prompt](leaks/databricks/2025-07-23_prompt.txt)
 
 ### [Devin](https://www.cognition-labs.com/introducing-devin)
+
+#### Latest
 
 - [Prompt (08-09-2025)](leaks/devin/2025-08-09_prompt_system.md)
 - [Available Commands](leaks/devin/2025-07-21_prompt_available-commands.txt)
@@ -226,10 +277,14 @@
 
 ### [Emergent](https://app.emergent.sh)
 
+#### Latest
+
 - [Prompt](leaks/emergent/2025-10-15_prompt.md)
 - [Tools](leaks/emergent/2025-10-15_tools.json)
 
 ### [Discord](https://discord.com)
+
+#### Latest
 
 - [Clyde (2024-07-16)](leaks/discord/2024-07-16_prompt.txt)
 - [Clyde (2024-07-16)](leaks/discord/2024-07-16_prompt.txt)
@@ -238,13 +293,19 @@
 
 ### [Factory](https://factory.ai)
 
+#### Latest
+
 - [Droid Prompt](leaks/factory/2025-09-29_prompt.md)
 
 ### [Fellou AI](https://fellou.ai)
 
+#### Latest
+
 - [Prompt 2025-10-18](leaks/fellou/2025-10-18_prompt.md)
 
 ### [Google Gemini](https://ai.google/gemini)
+
+#### Latest
 
 - [Gemini 2.5 Pro Guided Learning 2025-10-15](leaks/gemini/2025-10-15_prompt_gemini25pro_guided-learning.md)
 - [Gemini 2.5 Pro Webapp 2025-07-21](leaks/gemini/2025-07-21_prompt_gemini25pro_webapp.txt)
@@ -267,17 +328,25 @@
 
 ### [ChatGLM](https://chatglm.cn)
 
+#### Latest
+
 - [ChatGLM 2024-08-21](leaks/glm/2024-08-21_prompt.txt)
 
 ### [Gordon](https://docs.docker.com/ai/gordon)
+
+#### Latest
 
 - [Gordon 2025-06-29](leaks/gordon/2025-06-29_prompt.txt)
 
 ### [Dia](https://www.dia.com)
 
+#### Latest
+
 - [Prompt](leaks/dia/2025-07-20_prompt.txt)
 
 ### [Grok](https://grok.x.ai)
+
+#### Latest
 
 - [Ask Grok Summarizer 2025-07-20](leaks/grok/archived/2025-07-20_prompt_summarizer.j2)
 - [Deepsearch Final Summarizer Prompt 2025-07-20](leaks/grok/archived/2025-07-20_prompt_deepsearch-final-summarizer.j2)
@@ -303,18 +372,26 @@
 
 ### [Hume](https://hume.ai)
 
+#### Latest
+
 - [Prompt 2024-05-05](leaks/hume/2024-05-05_prompt.txt)
 - [Prompt 2024-05-05](leaks/hume/2024-05-05_prompt.txt)
 
 ### [Junie](https://junie.co)
 
+#### Latest
+
 - [Prompt](leaks/junie/2025-07-20_prompt.txt)
 
 ### [Kagi](https://kagi.com)
 
+#### Latest
+
 - [Prompt](leaks/kagi/2025-07-21_prompt.txt)
 
 ### [Kiro](https://kiro.dev)
+
+#### Latest
 
 - [Mode Classifier](leaks/kiro/2025-08-31_prompt_mode-clasifier.md)
 - [Specification](leaks/kiro/2025-08-31_prompt_spec-design-document.md)
@@ -325,10 +402,14 @@
 
 ### [Leap.new](https://leap.new)
 
+#### Latest
+
 - [Prompt](leaks/leap/2025-09-15_prompt.md)
 - [Tools](leaks/leap/2025-09-15_tools.json)
 
 ### [Lovable](https://lovable.ai)
+
+#### Latest
 
 - [Agent Prompt](leaks/lovable/2025-07-26_prompt_agent.txt)
 - [Agent Tools](leaks/lovable/2025-07-26_tools.txt)
@@ -345,9 +426,13 @@
 
 ### [Lumo](https://lumo.proton.me)
 
+#### Latest
+
 - [Prompt 2025-10-19](leaks/lumo/2025-10-19_prompt.md)
 
 ### [Manus](https://www.manus.io)
+
+#### Latest
 
 - [Agent Loop](leaks/manus/2025-07-20_prompt_agent-loop.txt)
 - [Environment](leaks/manus/2025-07-20_prompt_environment.txt)
@@ -362,23 +447,33 @@
 
 ### [Mistral](https://mistral.ai)
 
+#### Latest
+
 - [Chat](leaks/mistral/2025-07-20_prompt_chat.md)
 - [Mistral 2025-04-25](leaks/mistral/2025-07-20_prompt.md)
 - [Prompt](leaks/mistral/2025-07-20_prompt.md)
 
 ### [Moonshot KIMI](https://www.kimi.com)
 
+#### Latest
+
 - [KIMI 2024-11-06](leaks/moonshot/2024-11-06_prompt.txt)
 
 ### [MultiOn](https://multion.ai)
+
+#### Latest
 
 - [Prompt](leaks/multion/2025-07-23_prompt.txt)
 
 ### [MyAI](https://my.ai.se)
 
+#### Latest
+
 - [MyAI 2023-04-30](leaks/myai/2023-04-30_prompt.txt)
 
 ### [Notion](https://www.notion.so)
+
+#### Latest
 
 - [Prompt 2025-09-01](leaks/notion/2025-07-20_prompt.txt)
 - [Tools](leaks/notion/2025-09-10_tools.json)
@@ -387,9 +482,13 @@
 
 ### [Notte](https://www.notte.ai)
 
+#### Latest
+
 - [Prompt](leaks/notte/prompt.txt)
 
 ### [OpenAI](https://openai.com)
+
+#### Latest
 
 - [Prompt Atlas 2025-10-21](leaks/openai/2025-10-21_prompt_atlas.md)
 - [Prompt GPT-4o 2025-09-27](leaks/openai/archived/2025-09-27_prompt_gpt4o.md)
@@ -457,19 +556,27 @@
 
 ### [Opera Aria](https://www.opera.com/features/aria)
 
+#### Latest
+
 - [Aria 2023-06-17](leaks/opera/2023-06-17_prompt.txt)
 
 ### [Orchids](https://www.orchids.app/)
+
+#### Latest
 
 - [Decision Making 2025-07-20](leaks/orchids/2025-07-20_prompt_decision-making.txt)
 - [Prompt 2025-07-20](leaks/orchids/2025-07-20_prompt.txt)
 
 ### [Parahelp](https://parahelp.com)
 
+#### Latest
+
 - [Manager Tool 2025-07-23](leaks/parahelp/2025-07-23_prompt_manager.txt)
 - [Planning Tool 2025-07-23](leaks/parahelp/2025-07-23_prompt_planning.txt)
 
 ### [Perplexity](https://www.perplexity.ai)
+
+#### Latest
 
 - [Deep Research 2025-08-06](leaks/perplexity/2025-08-06_prompt_deep-research.md)
 - [Perplexity 2022-12-08](leaks/perplexity/archived/2022-12-08_prompt.txt)
@@ -483,9 +590,13 @@
 
 ### [Phind](https://www.phind.com)
 
+#### Latest
+
 - [Phind 2024-04-27](leaks/phind/2024-04-27_phind.txt)
 
 ### [Poke](https://poke.dev)
+
+#### Latest
 
 - [Agent 2025-09-15](leaks/poke/2025-09-15_prompt_agent.md)
 - [Prompt Agent Protocol 2025-09-15](leaks/poke/2025-09-15_prompt_agent-protocol.md)
@@ -497,10 +608,14 @@
 
 ### [Proton](https://proton.me/)
 
+#### Latest
+
 - [Prompt 2025-07-24](leaks/proton/archived/2025-07-24_prompt.txt)
 - [Prompt 2025-07-27](leaks/proton/2025-07-27_prompt.txt)
 
 ### [Qoder](https://www.qoder.com)
+
+#### Latest
 
 - [Quest Action 2025-08-26](leaks/qoder/2025-08-26_prompt_quest-action.md)
 - [Quest Design 2025-08-26](leaks/qoder/2025-08-26_prompt_quest-design.md)
@@ -508,13 +623,19 @@
 
 ### [Raycast](https://www.raycast.com)
 
+#### Latest
+
 - [Prompt 2025-07-21](leaks/raycast/2025-07-21_prompt.txt)
 
 ### [Remoteli](https://remoteli.io)
 
+#### Latest
+
 - [Remoteli 2023-08-06](leaks/remoteli/2023-08-06_prompt.txt)
 
 ### [Replit](https://replit.com)
+
+#### Latest
 
 - [Prompt 2025-07-20](leaks/replit/archived/2025-07-20_prompt.txt)
 - [Prompt 2025-07-26](leaks/replit/2025-07-26_prompt.txt)
@@ -522,9 +643,13 @@
 
 ### [Roblox Studio Assistant](https://create.roblox.com/docs/assistant/guide)
 
+#### Latest
+
 - [Roblox 2024-03-20](leaks/roblox/2024-03-20_prompt.txt)
 
 ### [Roo-Code](https://www.roo.com)
+
+#### Latest
 
 - [Prompt 2025-07-06](leaks/roo-code/archived/2025-07-06_prompt.txt)
 - [Prompt 2025-07-20](leaks/roo-code/2025-07-20_prompt.txt)
@@ -543,23 +668,33 @@
 
 ### [Same-Dev](https://www.same.dev)
 
+#### Latest
+
 - [Prompt 2025-07-20](leaks/same-dev/2025-07-20_prompt.txt)
 - [Tools 2025-07-20](leaks/same-dev/2025-07-20_tools.json)
 
 ### [ScamGuard](https://www.thescamguard.com/)
 
+#### Latest
+
 - [Prompt 2025-06-08](leaks/scamguard/2025-06-08_prompt.txt)
 
 ### [Maya Sesame](https://www.sesame.com/)
+
+#### Latest
 
 - [Prompt 2025-07-21](leaks/sesame/2025-07-21_prompt.txt)
 
 ### [Telegram](https://telegram.org)
 
+#### Latest
+
 - [Grok 4 2025-08-26](leaks/telegram/2025-08-26_prompt_grok4.md)
 - [Perplexity 2025-08-26](leaks/telegram/2025-08-26_prompt_perplexity.md)
 
 ### [Tracer AI](https://www.tracer.ai/)
+
+#### Latest
 
 - [Prompt Phase 2025-08-30](leaks/tracerai/2025-08-30_prompt_phase-mode.md)
 - [Prompt Plan 2025-08-30](leaks/tracerai/2025-08-30_prompt_plan-mode.md)
@@ -568,11 +703,15 @@
 
 ### [Trae](https://trae.ai)
 
+#### Latest
+
 - [Chat 2025-08-23](leaks/trae/2025-08-23_prompt_chat.md)
 - [Prompt Builder 2025-08-23](leaks/trae/2025-08-23_prompt.md)
 - [Tools Builder 2025-08-23](leaks/trae/2025-08-23_tools.json)
 
 ### [V0](https://v0.dev)
+
+#### Latest
 
 - [Instructions 2025-07-20](leaks/v0/2025-07-20_prompt_instructions.txt)
 - [Model 2025-07-20](leaks/v0/2025-07-20_prompt_model.txt)
@@ -582,6 +721,8 @@
 - [Tools 2025-07-20](leaks/v0/2025-07-20_tools.txt)
 
 ### [VSCode](https://code.visualstudio.com)
+
+#### Latest
 
 - [Chat Titles 2025-08-26](leaks/vscode/2025-08-26_prompt_chat-titles.md)
 - [Copilot 2023-05-13](leaks/vscode/archived/2023-05-13_prompt.txt)
@@ -599,15 +740,21 @@
 
 ### [Warp](https://www.warp.dev)
 
+#### Latest
+
 - [Prompt 2025-07-20](leaks/warp/2025-07-20_prompt.txt)
 
 ### [Whatsapp](https://www.whatsapp.com)
+
+#### Latest
 
 - [Llama 4 2025-07-20](leaks/whatsapp/2025-07-20_prompt_llama4.md)
 - [Meta AI 2025-07-20](leaks/whatsapp/2025-07-20_prompt_meta-ai.md)
 - [Whatsapp 2025-08-19](leaks/whatsapp/2025-08-19_prompt.md)
 
 ### [Windsurf](https://windsurf.ai)
+
+#### Latest
 
 - [Communication 2025-07-21](leaks/windsurf/2025-07-21_prompt_communication.txt)
 - [Examples 2025-07-21](leaks/windsurf/2025-07-21_prompt_examples.txt)
@@ -621,11 +768,15 @@
 
 ### [WRTN](https://wrtn.ai)
 
+#### Latest
+
 - [WRNT 2023-06-03](leaks/wrtn/archived/2023-06-03_prompt.txt)
 - [WRNT 2024-02-15](leaks/wrtn/archived/2024-02-15_prompt.txt)
 - [WRNT 2024-02-16](leaks/wrtn/2024-02-16_prompt.txt)
 
 ### [Xcode](https://developer.apple.com/xcode/)
+
+#### Latest
 
 - [Document Action 2025-07-20](leaks/xcode/2025-07-20_prompt_document-action.txt)
 - [Explain Action 2025-07-20](leaks/xcode/2025-07-20_prompt_explain-action.txt)
@@ -636,9 +787,13 @@
 
 ### [Z.ai](https://z.ai)
 
+#### Latest
+
 - [Prompt 2025-07-30](leaks/z-ai/2025-07-30_prompt.txt)
 
 ### [Zed](https://zed.dev)
+
+#### Latest
 
 - [Prompt 2025-07-23](leaks/zed/2025-07-23_prompt.txt)
 - [Copy Path Tool 2025-07-23](leaks/zed/2025-07-23_tools_copy-path.txt)
