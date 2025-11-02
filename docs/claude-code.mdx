@@ -11,22 +11,28 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-11-01 prompt sonnet45" label="2025-11-01 prompt sonnet45" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-11-01_prompt_sonnet45.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-11-01 prompt plan-mode sonnet45" label="2025-11-01 prompt plan-mode sonnet45" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-11-01_prompt_plan-mode_sonnet45.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-10-17 tools sonnet45" label="2025-10-17 tools sonnet45" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-10-17_tools_sonnet45.md').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-10-09 prompt output-style-learning" label="2025-10-09 prompt output-style-learning" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-10-09_prompt_output-style-learning.md').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-10-09 prompt output-style-explanatory" label="2025-10-09 prompt output-style-explanatory" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-10-09_prompt_output-style-explanatory.md').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-09-29 prompt" label="2025-09-29 prompt" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/2025-09-29_prompt.md').default}</CodeBlock>
         </TabItem>
       </Tabs>
     </TabItem>
     <TabItem value="archived" label="archived">
       <Tabs queryString="secondary">
+        <TabItem value="2025-10-09 prompt output-style-learning-archived" label="2025-10-09 prompt output-style-learning" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/archived/2025-10-09_prompt_output-style-learning.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-10-09 prompt output-style-explanatory-archived" label="2025-10-09 prompt output-style-explanatory" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/archived/2025-10-09_prompt_output-style-explanatory.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-09-29 prompt-archived" label="2025-09-29 prompt" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/archived/2025-09-29_prompt.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-09-01 prompt-archived" label="2025-09-01 prompt" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/claude-code/archived/2025-09-01_prompt.md').default}</CodeBlock>
         </TabItem>
