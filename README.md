@@ -291,6 +291,10 @@
 - [Clyde (2024-07-16)](leaks/discord/2024-07-16_prompt.txt)
 - [Clyde (2024-07-16)](leaks/discord/2024-07-16_prompt.txt)
 
+### [DuckDuckDuckGo](https://duckduckgo.com)
+
+- [2025-11-02 Prompt GPT-5-mini](leaks/duckduckgo/2025-11-02_prompt_gpt5mini.md)
+
 ### [Factory](https://factory.ai)
 
 #### Latest
