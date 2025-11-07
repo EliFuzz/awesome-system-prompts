@@ -11,61 +11,64 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-11-01 prompt ai-studio" label="2025-11-01 prompt ai-studio" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-11-01_prompt_ai-studio.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-10-15 prompt gemini25pro guided-learning" label="2025-10-15 prompt gemini25pro guided-learning" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-10-15_prompt_gemini25pro_guided-learning.md').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-08-29 prompt gemini25flash image-preview" label="2025-08-29 prompt gemini25flash image-preview" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-08-29_prompt_gemini25flash_image-preview.md').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools write-file" label="2025-07-23 tools write-file" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_write-file.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools web-search" label="2025-07-23 tools web-search" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_web-search.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools web-fetch" label="2025-07-23 tools web-fetch" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_web-fetch.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools shell" label="2025-07-23 tools shell" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_shell.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools read-many-files-tool" label="2025-07-23 tools read-many-files-tool" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_read-many-files-tool.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools read-file" label="2025-07-23 tools read-file" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_read-file.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools memory" label="2025-07-23 tools memory" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_memory.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools ls" label="2025-07-23 tools ls" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_ls.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools grep" label="2025-07-23 tools grep" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_grep.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools glob" label="2025-07-23 tools glob" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_glob.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-23 tools edit" label="2025-07-23 tools edit" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-23_tools_edit.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-21 prompt gemini25pro webapp" label="2025-07-21 prompt gemini25pro webapp" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-21_prompt_gemini25pro_webapp.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-21 prompt gemini20flash webapp" label="2025-07-21 prompt gemini20flash webapp" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-21_prompt_gemini20flash_webapp.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-21 gemini-diffusion" label="2025-07-21 gemini-diffusion" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-21_gemini-diffusion.txt').default}</CodeBlock>
-        </TabItem>
-        <TabItem value="2025-07-09 prompt stitch" label="2025-07-09 prompt stitch" attributes={{ className: "tabs__vertical" }}>
-          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/2025-07-09_prompt_stitch.txt').default}</CodeBlock>
         </TabItem>
       </Tabs>
     </TabItem>
     <TabItem value="archived" label="archived">
       <Tabs queryString="secondary">
+        <TabItem value="2025-08-29 prompt gemini25flash image-preview-archived" label="2025-08-29 prompt gemini25flash image-preview" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/archived/2025-08-29_prompt_gemini25flash_image-preview.md').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools write-file-archived" label="2025-07-23 tools write-file" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_write-file.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools web-search-archived" label="2025-07-23 tools web-search" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_web-search.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools web-fetch-archived" label="2025-07-23 tools web-fetch" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_web-fetch.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools shell-archived" label="2025-07-23 tools shell" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_shell.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools read-many-files-tool-archived" label="2025-07-23 tools read-many-files-tool" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_read-many-files-tool.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools read-file-archived" label="2025-07-23 tools read-file" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_read-file.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools memory-archived" label="2025-07-23 tools memory" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_memory.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools ls-archived" label="2025-07-23 tools ls" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_ls.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools grep-archived" label="2025-07-23 tools grep" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_grep.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools glob-archived" label="2025-07-23 tools glob" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_glob.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-23 tools edit-archived" label="2025-07-23 tools edit" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-23_tools_edit.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt gemini25pro webapp-archived" label="2025-07-21 prompt gemini25pro webapp" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-21_prompt_gemini25pro_webapp.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 prompt gemini20flash webapp-archived" label="2025-07-21 prompt gemini20flash webapp" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-21_prompt_gemini20flash_webapp.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-21 gemini-diffusion-archived" label="2025-07-21 gemini-diffusion" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-21_gemini-diffusion.txt').default}</CodeBlock>
+        </TabItem>
+        <TabItem value="2025-07-09 prompt stitch-archived" label="2025-07-09 prompt stitch" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2025-07-09_prompt_stitch.txt').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2024-07-03 prompt gemini15-archived" label="2024-07-03 prompt gemini15" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="text">{require('!!raw-loader!../leaks/gemini/archived/2024-07-03_prompt_gemini15.txt').default}</CodeBlock>
         </TabItem>
