@@ -234,7 +234,8 @@
 
 #### Latest
 
-- [2025-11-01 Prompt](leaks/cursor/2025-11-01_prompt.md)
+- [Agent Prompt 2025-11-01](leaks/cursor/2025-11-01_prompt_agent.md)
+- [System Prompt 2025-11-01](leaks/cursor/2025-11-01_prompt.md)
 
 #### Archived
 
@@ -311,24 +312,28 @@
 
 #### Latest
 
-- [Gemini 2.5 Pro Guided Learning 2025-10-15](leaks/gemini/2025-10-15_prompt_gemini25pro_guided-learning.md)
-- [Gemini 2.5 Pro Webapp 2025-07-21](leaks/gemini/2025-07-21_prompt_gemini25pro_webapp.txt)
-- [Gemini Diffusion 2025-07-21](leaks/gemini/2025-07-21_gemini-diffusion.txt)
-- [Google Gemini 1.5 (2024-04-11)](leaks/gemini/archived/2024-04-11_prompt_gemini15.txt)
-- [Google Gemini CLI (2024-07-03)](leaks/gemini/archived/2024-07-03_prompt_gemini15.txt)
-- [Google Stitch 2025-07-09](leaks/gemini/2025-07-09_prompt_stitch.txt)
-- [Prompt Gemini 2.5 Flash Image Preview 2025-08-29](leaks/gemini/2025-08-29_prompt_gemini25flash_image-preview.md)
-- [Edit Tool 2025-07-23](leaks/gemini/2025-07-23_tools_edit.txt)
-- [Glob Tool 2025-07-23](leaks/gemini/2025-07-23_tools_glob.txt)
-- [Grep Tool 2025-07-23](leaks/gemini/2025-07-23_tools_grep.txt)
-- [LS Tool 2025-07-23](leaks/gemini/2025-07-23_tools_ls.txt)
-- [Memory Tool 2025-07-23](leaks/gemini/2025-07-23_tools_memory.txt)
-- [Read File Tool 2025-07-23](leaks/gemini/2025-07-23_tools_read-file.txt)
-- [Read Many Files Tool 2025-07-23](leaks/gemini/2025-07-23_tools_read-many-files-tool.txt)
-- [Shell Tool 2025-07-23](leaks/gemini/2025-07-23_tools_shell.txt)
-- [Web Fetch Tool 2025-07-23](leaks/gemini/2025-07-23_tools_web-fetch.txt)
-- [Web Search Tool 2025-07-23](leaks/gemini/2025-07-23_tools_web-search.txt)
-- [Write File Tool 2025-07-23](leaks/gemini/2025-07-23_tools_write-file.txt)
+- [AI Studio 2025-11-01](leaks/gemini/2025-11-01_prompt_ai-studio.md)
+- [Guided Learning 2025-10-15](leaks/gemini/archived/2025-10-15_prompt_gemini25pro_guided-learning.md)
+
+### Archived
+
+- [Gemini 2.5 Pro Webapp 2025-07-21](leaks/gemini/archived/2025-07-21_prompt_gemini25pro_webapp.txt)
+- [Gemini Diffusion 2025-07-21](leaks/gemini/archived/2025-07-21_gemini-diffusion.txt)
+- [Google Gemini 1.5 (2024-04-11)](leaks/gemini/archived/archived/2024-04-11_prompt_gemini15.txt)
+- [Google Gemini CLI (2024-07-03)](leaks/gemini/archived/archived/2024-07-03_prompt_gemini15.txt)
+- [Google Stitch 2025-07-09](leaks/gemini/archived/2025-07-09_prompt_stitch.txt)
+- [Prompt Gemini 2.5 Flash Image Preview 2025-08-29](leaks/gemini/archived/2025-08-29_prompt_gemini25flash_image-preview.md)
+- [Edit Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_edit.txt)
+- [Glob Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_glob.txt)
+- [Grep Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_grep.txt)
+- [LS Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_ls.txt)
+- [Memory Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_memory.txt)
+- [Read File Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_read-file.txt)
+- [Read Many Files Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_read-many-files-tool.txt)
+- [Shell Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_shell.txt)
+- [Web Fetch Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_web-fetch.txt)
+- [Web Search Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_web-search.txt)
+- [Write File Tool 2025-07-23](leaks/gemini/archived/2025-07-23_tools_write-file.txt)
 
 ### [ChatGLM](https://chatglm.cn)
 
