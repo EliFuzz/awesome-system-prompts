@@ -268,13 +268,17 @@
 
 #### Latest
 
-- [Prompt (08-09-2025)](leaks/devin/2025-08-09_prompt_system.md)
-- [Available Commands](leaks/devin/2025-07-21_prompt_available-commands.txt)
-- [Coding Security](leaks/devin/2025-07-21_prompt_coding-security.txt)
-- [Persona](leaks/devin/2025-07-21_prompt_persona.txt)
-- [Planning](leaks/devin/2025-07-21_prompt_planning.txt)
-- [Prompt 2025-08-09](leaks/devin/2025-08-09_prompt_system.md)
-- [Reasoning Reflection](leaks/devin/2025-07-21_prompt_reasoning-reflection.txt)
+- [Prompt (11-09-2025)](leaks/devin/2025-11-09_prompt_deep-wiki.md)
+
+### Archived
+
+- [Prompt (08-09-2025)](leaks/devin/archived/2025-08-09_prompt_system.md)
+- [Available Commands](leaks/devin/archived/2025-07-21_prompt_available-commands.txt)
+- [Coding Security](leaks/devin/archived/2025-07-21_prompt_coding-security.txt)
+- [Persona](leaks/devin/archived/2025-07-21_prompt_persona.txt)
+- [Planning](leaks/devin/archived/2025-07-21_prompt_planning.txt)
+- [Prompt 2025-08-09](leaks/devin/archived/2025-08-09_prompt_system.md)
+- [Reasoning Reflection](leaks/devin/archived/2025-07-21_prompt_reasoning-reflection.txt)
 
 ### [Emergent](https://app.emergent.sh)
 
@@ -312,6 +316,7 @@
 
 #### Latest
 
+- [Prompt CLI 2025-11-09](leaks/gemini/2025-11-09_prompt_cli.md)
 - [AI Studio 2025-11-01](leaks/gemini/2025-11-01_prompt_ai-studio.md)
 - [Guided Learning 2025-10-15](leaks/gemini/archived/2025-10-15_prompt_gemini25pro_guided-learning.md)
 
