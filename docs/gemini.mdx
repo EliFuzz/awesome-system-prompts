@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-11-09 prompt cli" label="2025-11-09 prompt cli" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-11-09_prompt_cli.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-11-01 prompt ai-studio" label="2025-11-01 prompt ai-studio" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/gemini/2025-11-01_prompt_ai-studio.md').default}</CodeBlock>
         </TabItem>
