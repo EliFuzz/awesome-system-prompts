@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-11-28 prompt opus45" label="2025-11-28 prompt opus45" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2025-11-28_prompt_opus45.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-11-01 prompt memory" label="2025-11-01 prompt memory" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2025-11-01_prompt_memory.md').default}</CodeBlock>
         </TabItem>
