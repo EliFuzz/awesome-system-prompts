@@ -318,14 +318,15 @@
 
 #### Latest
 
-- [Antigravity Planning](leaks/google/2025-11-18_prompt_antigravity-planinng.md)
-- [Antigravity Prompt](leaks/google/2025-11-18_prompt_antigravity.md)
+- [Prompt Antigravity 2025-11-24](leaks/gemini/2025-11-24_prompt-antigravity-fast.md)
 - [Prompt CLI 2025-11-09](leaks/google/2025-11-09_prompt_cli.md)
 - [AI Studio 2025-11-01](leaks/google/2025-11-01_prompt_ai-studio.md)
 - [Guided Learning 2025-10-15](leaks/google/archived/2025-10-15_prompt_gemini25pro_guided-learning.md)
 
 ### Archived
 
+- [Antigravity Planning](leaks/google/2025-11-18_prompt_antigravity-planinng.md)
+- [Antigravity Prompt](leaks/google/2025-11-18_prompt_antigravity.md)
 - [Gemini 2.5 Pro Webapp 2025-07-21](leaks/google/archived/2025-07-21_prompt_gemini25pro_webapp.txt)
 - [Gemini Diffusion 2025-07-21](leaks/google/archived/2025-07-21_gemini-diffusion.txt)
 - [Google Gemini 1.5 (2024-04-11)](leaks/google/archived/archived/2024-04-11_prompt_gemini15.txt)
