@@ -394,20 +394,20 @@ type run = (_: // ToolCallV5
   sports?: Array<// SportsToolInvocationV1
   {
     // Tool
-    tool: "sports";
+    tool: 'sports';
     // Fn
-    fn: "schedule" | "standings";
+    fn: 'schedule' | 'standings';
     // League
     league:
-      | "nba"
-      | "wnba"
-      | "nfl"
-      | "nhl"
-      | "mlb"
-      | "epl"
-      | "ncaamb"
-      | "ncaawb"
-      | "ipl";
+      | 'nba'
+      | 'wnba'
+      | 'nfl'
+      | 'nhl'
+      | 'mlb'
+      | 'epl'
+      | 'ncaamb'
+      | 'ncaawb'
+      | 'ipl';
     // Team
     //
     // Search for the team. Use the team's most-common 3/4 letter alias that would be used in TV broadcasts etc.
@@ -444,7 +444,7 @@ type run = (_: // ToolCallV5
     // Ticker
     ticker: string;
     // Type
-    type: "equity" | "fund" | "crypto" | "index";
+    type: 'equity' | 'fund' | 'crypto' | 'index';
     // Market
     //
     // ISO 3166 3-letter Country Code, or "OTC" for Over-the-Counter markets, or "" for Cryptocurrency
@@ -499,7 +499,7 @@ type run = (_: // ToolCallV5
   // Response Length
   //
   // the length of the response to be returned
-  response_length?: "short" | "medium" | "long"; // default: "medium"
+  response_length?: 'short' | 'medium' | 'long'; // default: "medium"
   // Bing Query
   //
   // query internet search engine for a given list of queries
@@ -825,44 +825,44 @@ type create_textdoc = (_: {
   // - Use "document” for markdown files that should use a rich-text document editor.
   // - Use "code/*” for programming and code files that should use a code editor for a given language, for example "code/python” to show a Python code editor. Use "code/other” when the user asks to use a language not given as an option.
   type:
-    | "document"
-    | "code/bash"
-    | "code/zsh"
-    | "code/javascript"
-    | "code/typescript"
-    | "code/html"
-    | "code/css"
-    | "code/python"
-    | "code/json"
-    | "code/sql"
-    | "code/go"
-    | "code/yaml"
-    | "code/java"
-    | "code/rust"
-    | "code/cpp"
-    | "code/swift"
-    | "code/php"
-    | "code/xml"
-    | "code/ruby"
-    | "code/haskell"
-    | "code/kotlin"
-    | "code/csharp"
-    | "code/c"
-    | "code/objectivec"
-    | "code/r"
-    | "code/lua"
-    | "code/dart"
-    | "code/scala"
-    | "code/perl"
-    | "code/commonlisp"
-    | "code/clojure"
-    | "code/ocaml"
-    | "code/powershell"
-    | "code/verilog"
-    | "code/dockerfile"
-    | "code/vue"
-    | "code/react"
-    | "code/other";
+    | 'document'
+    | 'code/bash'
+    | 'code/zsh'
+    | 'code/javascript'
+    | 'code/typescript'
+    | 'code/html'
+    | 'code/css'
+    | 'code/python'
+    | 'code/json'
+    | 'code/sql'
+    | 'code/go'
+    | 'code/yaml'
+    | 'code/java'
+    | 'code/rust'
+    | 'code/cpp'
+    | 'code/swift'
+    | 'code/php'
+    | 'code/xml'
+    | 'code/ruby'
+    | 'code/haskell'
+    | 'code/kotlin'
+    | 'code/csharp'
+    | 'code/c'
+    | 'code/objectivec'
+    | 'code/r'
+    | 'code/lua'
+    | 'code/dart'
+    | 'code/scala'
+    | 'code/perl'
+    | 'code/commonlisp'
+    | 'code/clojure'
+    | 'code/ocaml'
+    | 'code/powershell'
+    | 'code/verilog'
+    | 'code/dockerfile'
+    | 'code/vue'
+    | 'code/react'
+    | 'code/other';
   // The content of the text document. This should be a string that is formatted according to the content type. For example, if the type is "document", this should be a string that is formatted as markdown.
   content: string;
 }) => any;
