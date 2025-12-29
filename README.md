@@ -86,6 +86,7 @@
 
 #### Latest
 
+- [Prompt in Chrome 2025-12-22](leaks/anthropic/2025-12-22_prompt_chrome.md)
 - [Prompt Search Instructions 2025-11-29](leaks/anthropic/2025-11-29_prompt_search-instructions.md.md)
 - [Prompt 2025-11-28](leaks/anthropic/2025-11-28_prompt_opus45.md)
 - [Prompt 2025-11-01](leaks/anthropic/2025-11-01_prompt_memory.md)
