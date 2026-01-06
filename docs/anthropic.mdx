@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2025-12-22 tools chrome" label="2025-12-22 tools chrome" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="json">{require('!!raw-loader!../leaks/anthropic/2025-12-22_tools_chrome.json').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2025-12-22 prompt chrome" label="2025-12-22 prompt chrome" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2025-12-22_prompt_chrome.md').default}</CodeBlock>
         </TabItem>
