@@ -501,10 +501,14 @@
 
 #### Latest
 
-- [Prompt 2025-09-01](leaks/notion/2025-07-20_prompt.txt)
-- [Tools](leaks/notion/2025-09-10_tools.json)
-- [Prompt 2024-12-28](leaks/notion/2025-07-20_prompt.txt)
-- [Prompt](leaks/notion/2025-07-20_prompt.txt)
+- [Prompt 2026-01-06](leaks/notion/2026-01-06_prompt.md)
+
+#### Archived
+
+- [Prompt 2025-09-01](leaks/notion/archived/2025-07-20_prompt.txt)
+- [Tools](leaks/notion/archived/2025-09-10_tools.json)
+- [Prompt 2024-12-28](leaks/notion/archived/2025-07-20_prompt.txt)
+- [Prompt](leaks/notion/archived/2025-07-20_prompt.txt)
 
 ### [Notte](https://www.notte.ai)
 
