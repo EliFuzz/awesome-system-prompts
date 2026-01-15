@@ -319,6 +319,7 @@
 
 #### Latest
 
+- [Gemini Workspace 2026-01-13](leaks/gemini/2026-01-13_prompt_workspace.md)
 - [Prompt Gemini 3.0 Pro 2025-12-22](leaks/gemini/2025-12-22_prompt_gemini3pro.md)
 
 ### Archived
