@@ -304,6 +304,12 @@
 
 - [2025-11-02 Prompt GPT-5-mini](leaks/duckduckgo/2025-11-02_prompt_gpt5mini.md)
 
+### [Evernote](https://evernote.com/)
+
+#### Latest
+
+- [Evernote Prompt](leaks/evernote/2026-01-21_prompt.md)
+
 ### [Factory](https://factory.ai)
 
 #### Latest
