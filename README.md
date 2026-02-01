@@ -616,6 +616,7 @@
 #### Latest
 
 - [2026-01-30 Prompt Comet](leaks/perplexity/2026-01-30_prompt_comet.md)
+- [2026-01-30 Tools Comet](leaks/perplexity/2026-01-30_tools_comet.md)
 
 #### Archived
 
