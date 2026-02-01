@@ -86,6 +86,7 @@
 
 #### Latest
 
+- [2026-01-24 Prompt Claude Code in Excel](leaks/anthropic/2026-01-24_prompt_claude-code-excel.md)
 - [2025-10-07 Tools Sonnet 4.5](leaks/anthropic/2025-10-17_tools_sonnet45_claude-code.md)
 - [2025-11-01 Prompt Plan Mode Sonnet 4.5](leaks/anthropic/2025-11-01_prompt_sonnet45_claude-code-plan-mode.md)
 - [2025-11-01 Prompt Sonnet 4.5](leaks/anthropic/2025-11-01_prompt_sonnet45_claude-code.md)
