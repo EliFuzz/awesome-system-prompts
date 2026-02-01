@@ -615,10 +615,11 @@
 
 #### Latest
 
-- [Prompt Comet Browser Assistant 2025-12-22](leaks/perplexity/2025-12-22_prompt_comet.md)
+- [2026-01-30 Prompt Comet](leaks/perplexity/2026-01-30_prompt_comet.md)
 
 #### Archived
 
+- [Prompt Comet Browser Assistant 2025-12-22](leaks/perplexity/archived/2025-12-22_prompt_comet.md)
 - [Deep Research 2025-08-06](leaks/perplexity/archived/2025-08-06_prompt_deep-research.md)
 - [Perplexity 2022-12-08](leaks/perplexity/archived/2022-12-08_prompt.txt)
 - [Perplexity 2024-03-11](leaks/perplexity/archived/2024-03-11_prompt.txt)
