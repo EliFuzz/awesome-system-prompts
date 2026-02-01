@@ -319,6 +319,7 @@
 
 #### Latest
 
+- [2026-01-26 Prompt Gemini in Chrome](leaks/gemini/2026-01-26_prompt_gemini-in-chrome.md)
 - [2026-01-28 Prompt Gemini 3 Fast](leaks/gemini/2026-01-28_prompt_gemini3fast.md)
 - [Gemini Workspace 2026-01-13](leaks/gemini/2026-01-13_prompt_workspace.md)
 - [Prompt Gemini 3.0 Pro 2025-12-22](leaks/gemini/2025-12-22_prompt_gemini3pro.md)
