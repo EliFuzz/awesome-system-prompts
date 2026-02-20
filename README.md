@@ -86,15 +86,16 @@
 
 #### Latest
 
-- [2026-02-06 Prompt Claude Opus 4.6](leaks/anthropic/2026-02-06_prompt_claude-opus46.md)
-- [2026-01-24 Prompt Claude Code in Excel](leaks/anthropic/2026-01-24_prompt_claude-code-excel.md)
-- [2025-10-07 Tools Sonnet 4.5](leaks/anthropic/2025-10-17_tools_sonnet45_claude-code.md)
-- [2025-11-01 Prompt Plan Mode Sonnet 4.5](leaks/anthropic/2025-11-01_prompt_sonnet45_claude-code-plan-mode.md)
-- [2025-11-01 Prompt Sonnet 4.5](leaks/anthropic/2025-11-01_prompt_sonnet45_claude-code.md)
+- [2026-02-17 Prompt Opus 4.6](leaks/anthropic/2026-02-17_prompt_opus46.md)
 - [Cowork Prompt 2026-01-16](leaks/anthropic/2026-01-16_prompt_cowork.md)
 
 #### Archived
 
+- [2026-02-06 Prompt Claude Opus 4.6](leaks/anthropic/archived/2026-02-06_prompt_claude-opus46.md)
+- [2026-01-24 Prompt Claude Code in Excel](leaks/anthropic/archived/2026-01-24_prompt_claude-code-excel.md)
+- [2025-10-07 Tools Sonnet 4.5](leaks/anthropic/archived/2025-10-17_tools_sonnet45_claude-code.md)
+- [2025-11-01 Prompt Plan Mode Sonnet 4.5](leaks/anthropic/archived/2025-11-01_prompt_sonnet45_claude-code-plan-mode.md)
+- [2025-11-01 Prompt Sonnet 4.5](leaks/anthropic/archived/2025-11-01_prompt_sonnet45_claude-code.md)
 - [Tools in Chrome 2025-12-22](leaks/anthropic/archived/2025-12-22_tools_chrome.json)
 - [Prompt in Chrome 2025-12-22](leaks/anthropic/archived/2025-12-22_prompt_chrome.md)
 - [Prompt Search Instructions 2025-11-29](leaks/anthropic/archived/2025-11-29_prompt_search-instructions.md.md)
@@ -374,10 +375,11 @@
 
 #### Latest
 
-- [Prompt Grok 4.1-beta 2025-12-24](leaks/grok/2025-12-24_prompt_grok41beta.md)
+- [2026-02-17 Prompt Grok 4.20](leaks/grok/2026-02-17_prompt_grok42.md)
 
 #### Archived
 
+- [Prompt Grok 4.1-beta 2025-12-24](leaks/grok/archived/2025-12-24_prompt_grok41beta.md)
 - [Ask Grok Summarizer 2025-07-20](leaks/grok/archived/2025-07-20_prompt_summarizer.j2)
 - [Deepsearch Final Summarizer Prompt 2025-07-20](leaks/grok/archived/2025-07-20_prompt_deepsearch-final-summarizer.j2)
 - [Grok2 2025-07-20](leaks/grok/archived/2025-07-20_prompt_grok2.txt)
