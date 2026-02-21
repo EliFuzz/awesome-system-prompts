@@ -477,6 +477,12 @@
 - [Prompting Guide](leaks/manus/2025-07-20_prompt_prompting-guide.txt)
 - [Tools](leaks/manus/2025-07-20_tools.json)
 
+### [Microsoft Copilot](https://copilot.microsoft.com/)
+
+#### Latest
+
+- [2026-02-19 Microsoft Copilot for Word](leaks/microsoft/2026-02-19_prompt_copilot-word.md)
+
 ### [Mistral](https://mistral.ai)
 
 #### Latest
