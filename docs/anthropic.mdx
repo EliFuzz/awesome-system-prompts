@@ -11,6 +11,9 @@ import Tabs from "@theme/Tabs";
 <Tabs queryString="primary">
     <TabItem value="latest" label="latest">
       <Tabs queryString="secondary">
+        <TabItem value="2026-03-01 prompt sonnet46" label="2026-03-01 prompt sonnet46" attributes={{ className: "tabs__vertical" }}>
+          <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2026-03-01_prompt_sonnet46.md').default}</CodeBlock>
+        </TabItem>
         <TabItem value="2026-02-17 prompt opus46" label="2026-02-17 prompt opus46" attributes={{ className: "tabs__vertical" }}>
           <CodeBlock language="markdown">{require('!!raw-loader!../leaks/anthropic/2026-02-17_prompt_opus46.md').default}</CodeBlock>
         </TabItem>
