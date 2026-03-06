@@ -86,6 +86,7 @@
 
 #### Latest
 
+- [2026-03-01 Prompt Sonnet 4.6](leaks/anthropic/2026-03-01_prompt_sonnet46.md)
 - [2026-02-17 Prompt Opus 4.6](leaks/anthropic/2026-02-17_prompt_opus46.md)
 - [Cowork Prompt 2026-01-16](leaks/anthropic/2026-01-16_prompt_cowork.md)
 
@@ -532,6 +533,7 @@
 
 #### Latest
 
+- [2026-03-01 Prompt GPT5.2 Thinking](leaks/openai/2026-03-01_prompt_gpt52thinking.md)
 - [Prompt GPT-5mini 2025-12-06](leaks/openai/2025-12-06_prompt_gpt5mini.md)
 
 #### Archived
