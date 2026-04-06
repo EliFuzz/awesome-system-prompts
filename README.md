@@ -1,5 +1,6 @@
 # Prompt Labs - Leaked System Prompts
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code multi-agent orchestration with task registry, quality gates, and automated delegation.
 ## LLMs
 
 ### [Aider](https://www.aider.ai): AI-powered coding assistant that helps developers modify codebases efficiently through natural language prompts and context-aware code changes
