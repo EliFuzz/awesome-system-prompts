@@ -886,3 +886,5 @@ Process for adding a new prompt:
 - Move existing prompt files to `leaks/<platform>/archive/` if they are outdated
 - Update the `README.md` to include the new prompt
 - Submit a pull request for review
+
+- [Context Kit](https://github.com/JDDavenport/context-kit) — 4 PCA templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. One-command install, MIT licensed.
